@@ -1,0 +1,44 @@
+flowchart TD
+    %% ESTILOS VISUAIS
+    classDef operario fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc;
+    classDef whatsapp fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#f8fafc;
+    classDef engine fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#f8fafc;
+    classDef sienge fill:#78350f,stroke:#f59e0b,stroke-width:2px,color:#f8fafc;
+    classDef controlid fill:#4c1d95,stroke:#c084fc,stroke-width:2px,color:#f8fafc;
+
+    subgraph ETAPA1 ["1. DISPARO PROATIVO & ROTINA DE CANTEIRO"]
+        A[Cron Job Omni Ponto: 07:50 AM]:::engine --> B[Disparo Automático via WhatsApp API]:::whatsapp
+        B --> C{Operário tem Celular com Sinal/Bateria?}:::whatsapp
+    end
+
+    subgraph ETAPA2 ["2. VALIDAÇÃO DE PRESENÇA NO CANTEIRO"]
+        C -->|Sim: Fluxo Normal| D[Operário recebe mensagem no WhatsApp]:::operario
+        D --> E{Confirma Obra Padrão?}:::operario
+        E -->|Sim: Obra Padrão| F[Envia Localização GPS / Confirmação]:::operario
+        E -->|Não: Outra Obra| G[Seleciona Obra B na lista rápida]:::operario
+        G --> F
+
+        C -->|Não: Plano B| H[Operário sem Bateria / Sem Sinal]:::operario
+        H --> I{Qual alternativa usar?}:::operario
+        I -->|Opção 1: Ao religar celular| J[Solicitação Retroativa com Motivo]:::operario
+        I -->|Opção 2: Imediato na obra| K[Mestre de Obras aponta pelo WhatsApp dele]:::operario
+        J --> L[Mestre de Obras recebe alerta e Clica em APROVAR]:::whatsapp
+        K --> L
+    end
+
+    subgraph ETAPA3 ["3. ENGINE OMNI PONTO (HUB INTELIGENTE)"]
+        F --> M[Validação de Geofencing: Raio < 100m da Obra]:::engine
+        L --> M
+        M --> N[Geração de Protocolo Legal & Comprovante no WhatsApp]:::engine
+        N --> O[Gravação no Banco Cloud PostgreSQL / Supabase]:::engine
+        O --> P[Consolidação de Turnos: 08h-12h e 13h-17h]:::engine
+        P --> Q[Cálculo do Rateio Multi-Centro de Custo]:::engine
+    end
+
+    subgraph ETAPA4 ["4. INTEGRAÇÃO & APROPRIAÇÃO DUAL"]
+        Q -->|Jornada CLT Contínua: 8h| R[Control iD / RHiD API]:::controlid
+        Q -->|4h Obra A CC 101 + 4h Obra B CC 102| S[Sienge ERP API - Módulo CMO]:::sienge
+
+        R --> T[Espelho de Ponto Homologado Portaria 671 MTE]:::controlid
+        S --> U[Apropriação de Custo de Mão de Obra em Tempo Real no Orçamento da Obra]:::sienge
+    end

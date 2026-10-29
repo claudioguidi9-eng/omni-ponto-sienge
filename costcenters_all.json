@@ -1,0 +1,620 @@
+[
+  {
+    "id": 88,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "121 - DIREÇÃO PRESIDENCIA"
+  },
+  {
+    "id": 95,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1210 - FINANCEIRO"
+  },
+  {
+    "id": 96,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1211 - MARKETING"
+  },
+  {
+    "id": 97,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1212 - FABRICAÇÃO, LOGISTICA E COMPRAS_INDIRETOS"
+  },
+  {
+    "id": 98,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1213 - TI & COMUNICAÇÕES"
+  },
+  {
+    "id": 99,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1214 - PROCESSOS"
+  },
+  {
+    "id": 100,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1215 - ADMINISTRATIVO"
+  },
+  {
+    "id": 101,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1216 - RESIDENCIAL INDIRETOS"
+  },
+  {
+    "id": 107,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "1217"
+  },
+  {
+    "id": 102,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1217 - INDUTRIAL DIRETO"
+  },
+  {
+    "id": 103,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1219 - FABRICAÇÃO DIRETO"
+  },
+  {
+    "id": 89,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "122 - DIREÇÃO GERAL"
+  },
+  {
+    "id": 104,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1220 - SIENGE"
+  },
+  {
+    "id": 105,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1221 - CONTROLLER"
+  },
+  {
+    "id": 106,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "1222 - LIMPEZA"
+  },
+  {
+    "id": 90,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "124 - INDUTRIAL INDIRETOS"
+  },
+  {
+    "id": 86,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "125 -SEGURANÇA INDIRETOS"
+  },
+  {
+    "id": 91,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "126 - PROJETOS"
+  },
+  {
+    "id": 92,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "127 - ORÇAMENTOS"
+  },
+  {
+    "id": 93,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "128 - COMERCIAL"
+  },
+  {
+    "id": 94,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "129 - RH"
+  },
+  {
+    "id": 3,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "19.016 - FCA_MANUTENÇÃO SITE JEEP, PE"
+  },
+  {
+    "id": 4,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "20.088 - LOCK_CASTELATTO, ATIBAIA,SP"
+  },
+  {
+    "id": 5,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.022 - LAMPUR_RUA SUIÇA 19, JARDIM EUROPA, SP"
+  },
+  {
+    "id": 6,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.024 - CLUBE PAINEIRAS MORUMBY, RETROFIT EM GE,"
+  },
+  {
+    "id": 7,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.050 - ERNESTO HEER_COND. FAZENDA VILA REAL, ITU"
+  },
+  {
+    "id": 8,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.061 - DIASE_AMAZON CD BETIM-RETROFIT E AMPLIAÇÃ"
+  },
+  {
+    "id": 1,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.062-RACIONAL_ARENA MRV, MG"
+  },
+  {
+    "id": 9,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.074 - SAVÉRIO - ARAÇATUBA, SP"
+  },
+  {
+    "id": 10,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.076 - DIASE_AMAZON GRU8, CAJAMAR, SP"
+  },
+  {
+    "id": 11,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.086 - GAIA_Q42 L06, FBV, SP"
+  },
+  {
+    "id": 12,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "21.097 - LOG_AMAZON CD REC3-DECK, PE"
+  },
+  {
+    "id": 13,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.001 - YAMA_RES KLAUSS, ARAÇATUBA,SP"
+  },
+  {
+    "id": 14,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.002 - FREMASA_ANA CAROLINA LUI, CAMPOS DO JORDÃ"
+  },
+  {
+    "id": 15,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.003 - LZ ENG_MARCO AURELIO MARTINS, RESERVA PAR"
+  },
+  {
+    "id": 16,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.005 - CLP_RUA CURITIBA 339, SÃO PAULO, SP"
+  },
+  {
+    "id": 17,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.006 - ENGEDAM_AUTOZONE POUSO ALEGRE, SP"
+  },
+  {
+    "id": 18,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.007 - ENGEDAM_AUTOZONE SANTOS, SP"
+  },
+  {
+    "id": 19,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.008 - ENGEDEZ_AUTOZONE UBERLANDIA, SP"
+  },
+  {
+    "id": 20,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.009 - HOGA_AUTOZONE GUARATINGUETÁ, SP"
+  },
+  {
+    "id": 21,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.010 - HOGA_AUTOZONE S. JOSÉ DOS CAMPOS, SP"
+  },
+  {
+    "id": 22,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.011-HOGA_AUTOZONE RIBEIRÃO PRETO, SP"
+  },
+  {
+    "id": 23,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.013-ALFA_Q39L07, FBV, SP"
+  },
+  {
+    "id": 24,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.014 - VIGGIANI_RES.GABRIELA, PRAIA VERMELHA DO"
+  },
+  {
+    "id": 25,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.015-EVEN_RUA PAULISTÂNIA 319, SP"
+  },
+  {
+    "id": 26,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.016 - APTAR_ABERTURAS CORDEBRAS, BA"
+  },
+  {
+    "id": 27,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.017 - FREMASA_HELOY RUDGE, ALTO DE PINHEIROS, S"
+  },
+  {
+    "id": 28,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.018 - LOCK_ FELIPE TREVISAN, FAZENDA DA GRAMA,"
+  },
+  {
+    "id": 29,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.019-FREMASA_PEDRO FREITAS, ITU, SP"
+  },
+  {
+    "id": 30,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.020-PTR²_ALICE COUTINHO, MORUMBI, SP"
+  },
+  {
+    "id": 31,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.021 - GIANCARLO ROCCO_WALTER MACIEL, V. DE IBIU"
+  },
+  {
+    "id": 32,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.022 - RES. EDUARDO PEREIRA, PORTO DE IBIÚNA, SP"
+  },
+  {
+    "id": 33,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.023 - LOCK_MARCEL BAFFI, QUINTA DA BARONEZA, SP"
+  },
+  {
+    "id": 34,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.024-LOCK_ROBERTO DALLAL, QUINTA DA BARONEZA, SP"
+  },
+  {
+    "id": 35,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.026 - LOCK_RES. ROMOLO, CAMPINAS, SP"
+  },
+  {
+    "id": 36,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.027-P&P_HENRIQUE CARNEIRO, FAZENDA DA GRAMA, SP"
+  },
+  {
+    "id": 37,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.028 - MPH_MAURICIO RIBEIRO,QTA BARONEZA, SP"
+  },
+  {
+    "id": 38,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.029 - ENGEDAM_AUTOZONE POÇO DE CALDAS, MG"
+  },
+  {
+    "id": 39,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.030 - PFIZER_ADEQUAÇÃO LINHAS DE VIDA, SP"
+  },
+  {
+    "id": 40,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.031-LOCK_TATIANA CAIAFA, QTA BARONEZA, SP"
+  },
+  {
+    "id": 41,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.032 - CONSORCIO MANGUEIRÃO_ARENA MANGUEIRÃO, BE"
+  },
+  {
+    "id": 42,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.033 - DRAGÃO VENTURE, COND. ENSEADA - XANDRI-LÁ"
+  },
+  {
+    "id": 43,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.034 - LOCK_KAREN E HELIO SAFARTY - PRAIA DA BAL"
+  },
+  {
+    "id": 44,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.049 - MPH_LIGIA E RICHARD, FAZENDA DA GRAMA"
+  },
+  {
+    "id": 45,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.050 - MPH_IBERÊ E JOSÉ, QUINTA DA BARONEZA, SP"
+  },
+  {
+    "id": 46,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.051 - MPH_CASA DA MATA, FBV, SP"
+  },
+  {
+    "id": 47,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.052 - MPH_THIAGO CASTRO, FBV"
+  },
+  {
+    "id": 48,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.055 - OTP_RES. SP8, ALPHAVILLE, SP"
+  },
+  {
+    "id": 49,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.057 - LUCIANA GASPARINI, ARAÇATUBA, SP"
+  },
+  {
+    "id": 50,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.060 - GRIFE_DAVID VELEZ, FBV"
+  },
+  {
+    "id": 51,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.061 - BRIDGESTONE_AMPLIAÇÃO 2.4, BA"
+  },
+  {
+    "id": 52,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.078 - SPORT CLUB SIRIO, SP"
+  },
+  {
+    "id": 53,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.079 - CIMENGE_LAER_CLAUDIO ERMIRIO DE MORAES, C"
+  },
+  {
+    "id": 54,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.080 - LOCK_MARCIA E JOSINO, COND. ENTREVERDES,"
+  },
+  {
+    "id": 55,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.081 - IFES_COBERTURA SÃO MATEUS_ES"
+  },
+  {
+    "id": 56,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.082 - TEIXEIRA DUARTE_RETROFIT_AEROPORTO CAMPIN"
+  },
+  {
+    "id": 57,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.083 - TEMON_SUPORTES ELETROCALHAS DATA CENTEWR"
+  },
+  {
+    "id": 58,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.084 - TECNOFORT_RES. LEMOS - SÃO PAULO, SP"
+  },
+  {
+    "id": 59,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.085 - LAMPUR_CASA AM - IBIUNA, SP"
+  },
+  {
+    "id": 60,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.086 - MARS MANUTENÇÃO PREVENTIVA, GUARAREMA, SP"
+  },
+  {
+    "id": 61,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.086-MARS_MANUTENÇÃO PREVENTIVA, GUARAREMA. SP"
+  },
+  {
+    "id": 62,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.087 - ANDRE REIS_SOLANGE CALIO_SÃO JOSE DO RIO"
+  },
+  {
+    "id": 63,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.088 - RES. SAFRA - FBV"
+  },
+  {
+    "id": 64,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.090 - AUTOZONE_AUTOZONE LONDRINA II, PR"
+  },
+  {
+    "id": 65,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.091 - BORGWARNER_REPAROS BORGWARNER, ITATIBA, S"
+  },
+  {
+    "id": 66,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.093 - RODRIGO FIGUEIREDO_CASA DA GRUTA, ILHABEL"
+  },
+  {
+    "id": 67,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.094 - SCG_CANDIDA E JULIO PAIM, SAO PAULO, SP"
+  },
+  {
+    "id": 68,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.098 - NOVA ENGEMETAL_RUA ALVARES DE AZEVEDO, 12"
+  },
+  {
+    "id": 69,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.099-GUILHERME E PATRICIA - COND. VILAS DO GOLFE"
+  },
+  {
+    "id": 70,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.102 - LUCIANA E ALBERTO CARVA"
+  },
+  {
+    "id": 71,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.103 - AUTOZONE_AUTOZONE CAMPO MOURÃO, PR"
+  },
+  {
+    "id": 72,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.105 - AUTOZONE_AUTOZONE ITUMBIARA, GO"
+  },
+  {
+    "id": 73,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.106 - AUTOZONE_AUTOZONE CATALÃO, GO"
+  },
+  {
+    "id": 74,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.107 - EXTRATECH_CORREIOS SAUDE, SÃO PAULO, SP"
+  },
+  {
+    "id": 75,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.108 - LAMMART_EUNICE E ALEXANDRE - JARDIM PAULI"
+  },
+  {
+    "id": 76,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.109 - AWS_MANUTENÇÃO ANUAL DATA CENTER GRU063 -"
+  },
+  {
+    "id": 77,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.111 - AUTOZONE_AUTOZONE CAMPO LARGO, PR"
+  },
+  {
+    "id": 78,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.114 - ALEXANDRE DIAS - BARRA DA TIJUCA, RJ"
+  },
+  {
+    "id": 79,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.117 - FONSECA & MERCADANTE_ABERTURAS GR063, PAU"
+  },
+  {
+    "id": 2,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "22.118 - UA_HANGAR UNITED AIRLINES, RJ"
+  },
+  {
+    "id": 80,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "23.002 - GL EVENTS_RETROFIT PAVILHÃ 4_RIO DE JANEI"
+  },
+  {
+    "id": 85,
+    "idCompany": 1,
+    "linkedDeviceIds": [],
+    "name": "PRODUÇÃO"
+  },
+  {
+    "id": 83,
+    "idCompany": null,
+    "linkedDeviceIds": [],
+    "name": "REP GALPÃO"
+  }
+]

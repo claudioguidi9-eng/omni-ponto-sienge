@@ -1,0 +1,183 @@
+               OMNI TRADE BRASIL - ANÁLISE PRÁTICA DOS APONTAMENTOS DO CONTROL iD
+===================================================================================================
+CNPJ Omni: 14.653.928/0001-80 | Razão Social: OMNI TRADE BRASIL REVESTIMENTOS METALICOS LTDA
+Data da Análise: 18/10/2026, 09:19:28
+Ambiente: Produção RHiD (Control iD em Nuvem)
+Total de Colaboradores na Base: 496
+Total de Centros de Custo (Obras) Mapeados: 103
+===================================================================================================
+
+===================================================================================================
+1. ARQUIVO TEXTO ORIGINAL: O LAYOUT FISCAL BRUTO (PORTARIA MTE 671 / AFD)
+===================================================================================================
+Este é o arquivo exato exigido pelo Ministério do Trabalho (MTE) e gerado pelo Control iD.
+Cada linha possui tamanho fixo posicional e assinatura digital SHA-256.
+
+LINHAS REAIS EXTRAÍDAS DO CONTROL iD DA OMNI:
+---------------------------------------------------------------------------------------------------
+000000000111465392800018000000000000000OMNI TRADE BRASIL REVESTIMENTOS METALICOS LTDA                                                                                                        000051202100293642026-10-012026-10-182026-10-18T09:17:00-0300004108238299000129                              2adf
+00025444872026-10-01T07:52:00+01000624136553362026-10-01T03:52:00-0300010866b0af6aa03b6076ff9bda0481a2d8b5a1eb5fcf5a51af5e20c4bc7634f5e49
+00025444972026-10-01T07:53:00+01000050391613792026-10-01T03:53:00-03000102ea66c5298cb34e34226d8282721eccb9e29d6423fb4e0a84f9194a6fa66de56
+00025445072026-10-01T08:46:00+01000058457953542026-10-01T05:13:00-03000116073c1246bade4bbce2a1258321d41365891b4f80197d938ae4b0e957c71cb45
+00025445172026-10-01T06:33:00-03000016726004992026-10-01T06:33:00-0300010f74ef052971844f77b47e674347568e93b10b6c15307282c3589baeffcc154b7
+00025445272026-10-01T06:33:00-03000111993177052026-10-01T06:33:00-030001025f75531cfb1c099bf2aab3b1ee617931b1fb542129cd5ea80137fab292c6ff8
+00025445372026-10-01T06:34:00-03000072776033542026-10-01T06:34:00-0300010712a3219bb7b00d4d5af96198400b8085a5ec4fe3d0d5845521f17257907dd3d
+00025445472026-10-01T06:34:00-03000642137693402026-10-01T06:34:00-03000106f82140f79d13b4b195d955f565d6f7441183fbd99e3af95141edd878e3e2f1f
+00025445572026-10-01T06:34:00-03000063462093292026-10-01T06:34:00-0300010e05854ed7b785c72270767fb7d0752104ed2634dde22b8642ea78d2d1ae0b7f4
+00025445672026-10-01T06:34:00-03000088073953392026-10-01T06:34:00-0300010940713d130e74021107ba0da530b34b3a4a2d0c1f80098209a5df48955962029
+00025445772026-10-01T06:34:00-03000022304473352026-10-01T06:34:00-0300010c3710a5ce52c954681ab41644769b1c7222f3887bf00866ace895aac16c4c783
+00025445872026-10-01T06:35:00-03000108207353962026-10-01T06:35:00-03000108032ef67de329a98e401c5605ff6323e8b168e0548596fbef087b63a24f9155a
+---------------------------------------------------------------------------------------------------
+
+COMO INTERPRETAR UMA LINHA DE BATIDA:
+Linha: 00025445172026-10-01T06:33:00-03000016726004992026-10-01T06:33:00-0300010f74ef052971844f77...
+• 000254451 ➔ NSR (Número Sequencial do Registro, sequencial único e inviolável)
+• 7         ➔ Tipo de registro (7 = Marcação de ponto de empregado)
+• 2026-10-01T06:33:00-0300 ➔ Data e hora da batida com fuso horário (-03:00)
+• 001672600499             ➔ CPF do empregado cadastrado na Omni
+• 01                       ➔ Tipo de operação de ponto (Entrada)
+• 0f74ef052971844f77...    ➔ Assinatura digital criptografada (garantia antifraude)
+
+===================================================================================================
+2. APONTAMENTOS DECODIFICADOS COM NOMES E MATRÍCULAS DOS OPERÁRIOS DA OMNI:
+===================================================================================================
+[Registro #1] NSR: 000254448 | Matrícula: 127 | CPF: 62413655336
+  Colaborador: DOUGLAS DO NASCIMENTO OLIVEIRA
+  Linha Fiscal: 00025444872026-10-01T07:52:00+01000624136553362026-10-01T03:52:00-0300010866b0af6aa03b6076...
+
+[Registro #2] NSR: 000254449 | Matrícula: 200 | CPF: 05039161379
+  Colaborador: JOSE AUGUSTO DE CARVALHO SILVA
+  Linha Fiscal: 00025444972026-10-01T07:53:00+01000050391613792026-10-01T03:53:00-03000102ea66c5298cb34e34...
+
+[Registro #3] NSR: 000254450 | Matrícula: 840 | CPF: 05845795354
+  Colaborador: MARCOS VINYCIO SILVA PEREIRA
+  Linha Fiscal: 00025445072026-10-01T08:46:00+01000058457953542026-10-01T05:13:00-03000116073c1246bade4bbc...
+
+[Registro #4] NSR: 000254451 | Matrícula: 201 | CPF: 01672600499
+  Colaborador: ARTUR DE JESUS JOAQUIM
+  Linha Fiscal: 00025445172026-10-01T06:33:00-03000016726004992026-10-01T06:33:00-0300010f74ef052971844f77...
+
+[Registro #5] NSR: 000254452 | Matrícula: 1227 | CPF: 11199317705
+  Colaborador: ADILSON VAUNA DA SILVA
+  Linha Fiscal: 00025445272026-10-01T06:33:00-03000111993177052026-10-01T06:33:00-030001025f75531cfb1c099b...
+
+[Registro #6] NSR: 000254453 | Matrícula: 119 | CPF: 07277603354
+  Colaborador: EDIELSON ANDRADE DOS SANTOS
+  Linha Fiscal: 00025445372026-10-01T06:34:00-03000072776033542026-10-01T06:34:00-0300010712a3219bb7b00d4d...
+
+[Registro #7] NSR: 000254454 | Matrícula: 1394 | CPF: 64213769340
+  Colaborador: MARCOS ANTONIO SOUSA CARVALHO
+  Linha Fiscal: 00025445472026-10-01T06:34:00-03000642137693402026-10-01T06:34:00-03000106f82140f79d13b4b1...
+
+[Registro #8] NSR: 000254455 | Matrícula: 1328 | CPF: 06346209329
+  Colaborador: MARCOS JOSE DOS SANTOS
+  Linha Fiscal: 00025445572026-10-01T06:34:00-03000063462093292026-10-01T06:34:00-0300010e05854ed7b785c722...
+
+[Registro #9] NSR: 000254456 | Matrícula: 1075 | CPF: 08807395339
+  Colaborador: LUIZ ALBERTO BORGES ALMONDES
+  Linha Fiscal: 00025445672026-10-01T06:34:00-03000088073953392026-10-01T06:34:00-0300010940713d130e740211...
+
+[Registro #10] NSR: 000254457 | Matrícula: 1326 | CPF: 02230447335
+  Colaborador: AMAURI DOS SANTOS SOUZA
+  Linha Fiscal: 00025445772026-10-01T06:34:00-03000022304473352026-10-01T06:34:00-0300010c3710a5ce52c95468...
+
+[Registro #11] NSR: 000254458 | Matrícula: 1305 | CPF: 10820735396
+  Colaborador: LEONARDO DOS ANJOS SILVA
+  Linha Fiscal: 00025445872026-10-01T06:35:00-03000108207353962026-10-01T06:35:00-03000108032ef67de329a98e...
+
+[Registro #12] NSR: 000254459 | Matrícula: 1310 | CPF: 09476933356
+  Colaborador: JOAO PAULO VIEIRA DA SILVA
+  Linha Fiscal: 00025445972026-10-01T06:35:00-03000094769333562026-10-01T06:35:00-03000108c348bd05d80593a0...
+
+[Registro #13] NSR: 000254460 | Matrícula: 1138 | CPF: 35061171810
+  Colaborador: WILIAN ROBERTO LIMA CAMPANHA
+  Linha Fiscal: 00025446072026-10-01T06:35:00-03000350611718102026-10-01T06:35:00-0300010a70d4fd13ce46af7b...
+
+[Registro #14] NSR: 000254461 | Matrícula: 1332 | CPF: 07308927350
+  Colaborador: JEFFERSON DA CONCEIÇÃO SILVA
+  Linha Fiscal: 00025446172026-10-01T06:35:00-03000073089273502026-10-01T06:35:00-03000107144137fe4540bb11...
+
+[Registro #15] NSR: 000254462 | Matrícula: 1338 | CPF: 08796065338
+  Colaborador: MARCOS VINICIOS MORAIS FRANCO
+  Linha Fiscal: 00025446272026-10-01T06:35:00-03000087960653382026-10-01T06:35:00-0300010106258aa8092e5b83...
+
+[Registro #16] NSR: 000254463 | Matrícula: 1365 | CPF: 27662056830
+  Colaborador: JOSE MARCIO DOS SANTOS
+  Linha Fiscal: 00025446372026-10-01T06:35:00-03000276620568302026-10-01T06:35:00-0300010459aa8da8a6195427...
+
+[Registro #17] NSR: 000254464 | Matrícula: 1383 | CPF: 06710305317
+  Colaborador: CICERO ISRAEL FERREIRA DA SILVA
+  Linha Fiscal: 00025446472026-10-01T06:36:00-03000067103053172026-10-01T06:36:00-03000104406fc8422e140f9f...
+
+[Registro #18] NSR: 000254465 | Matrícula: 1329 | CPF: 05628542318
+  Colaborador: MAURICIO JOSE DOS SANTOS SILVA
+  Linha Fiscal: 00025446572026-10-01T06:36:00-03000056285423182026-10-01T06:36:00-03000101c8c4fd860a56e976...
+
+[Registro #19] NSR: 000254466 | Matrícula: 193 | CPF: 23642014895
+  Colaborador: JOSE MANUEL DO ROSARIO FORTIO
+  Linha Fiscal: 00025446672026-10-01T06:36:00-03000236420148952026-10-01T06:36:00-03000109b67e31edafaacc18...
+
+[Registro #20] NSR: 000254467 | Matrícula: 1351 | CPF: 18141053795
+  Colaborador: DIOGO CARVALHO DE LUCENA
+  Linha Fiscal: 00025446772026-10-01T06:36:00-03000181410537952026-10-01T06:36:00-030001010b6413c573c50984...
+
+[Registro #21] NSR: 000254468 | Matrícula: 136 | CPF: 07842639302
+  Colaborador: WELLYTON DA CONCEICAO ARAUJO
+  Linha Fiscal: 00025446872026-10-01T06:38:00-03000078426393022026-10-01T06:38:00-0300010c0f4513af8619a875...
+
+[Registro #22] NSR: 000254469 | Matrícula: 1087 | CPF: 04642515321
+  Colaborador: AILTON PEREIRA LISBOA
+  Linha Fiscal: 00025446972026-10-01T06:38:00-03000046425153212026-10-01T06:38:00-0300010578288107f91d45e8...
+
+[Registro #23] NSR: 000254470 | Matrícula: 1362 | CPF: 07788256390
+  Colaborador: JOSE VICTOR DA SILVA SIQUEIRA
+  Linha Fiscal: 00025447072026-10-01T06:39:00-03000077882563902026-10-01T06:39:00-0300010b329e30178a09cbde...
+
+[Registro #24] NSR: 000254471 | Matrícula: 1384 | CPF: 01561853348
+  Colaborador: CRISTIANO LEITE DE ALMEIDA
+  Linha Fiscal: 00025447172026-10-01T06:39:00-03000015618533482026-10-01T06:39:00-030001032b9ffc8936157092...
+
+===================================================================================================
+3. OBRAS DA OMNI IDENTIFICADAS NO CONTROL iD (CENTROS DE CUSTO):
+===================================================================================================
+O Control iD já possui 103 obras cadastradas! Exemplos reais encontrados:
+
+• ID  88: 121 - DIREÇÃO PRESIDENCIA
+• ID  95: 1210 - FINANCEIRO
+• ID  96: 1211 - MARKETING
+• ID  97: 1212 - FABRICAÇÃO, LOGISTICA E COMPRAS_INDIRETOS
+• ID  98: 1213 - TI & COMUNICAÇÕES
+• ID  99: 1214 - PROCESSOS
+• ID 100: 1215 - ADMINISTRATIVO
+• ID 101: 1216 - RESIDENCIAL INDIRETOS
+• ID 102: 1217 - INDUTRIAL DIRETO
+• ID 103: 1219 - FABRICAÇÃO DIRETO
+• ID  89: 122 - DIREÇÃO GERAL
+• ID 104: 1220 - SIENGE
+• ID 105: 1221 - CONTROLLER
+• ID 106: 1222 - LIMPEZA
+• ID  90: 124 - INDUTRIAL INDIRETOS
+
+===================================================================================================
+4. ANÁLISE DAS POSSIBILIDADES E ARQUITETURA PARA O OMNI PONTO
+===================================================================================================
+A partir desta análise técnica comprovada na API real da Omni, temos 3 GRANDES CAMINHOS:
+
+CAMINHO A: API REST BIDIRECIONAL (A MAIS MODERNA E RECOMENDADA)
+• O robô no WhatsApp recebe o ponto do operário com GPS no canteiro.
+• A nossa Engine grava a apropriação de custos no Sienge (CMO) por obra (4h Obra A + 4h Obra B).
+• A nossa Engine dispara a jornada de 8h contínua direto para o Control iD via API REST.
+• Vantagem: Sem arquivos textos, tudo em tempo real instantâneo no banco de dados.
+
+CAMINHO B: GERADOR AUTOMÁTICO DE ARQUIVO AFD / AFDT (COMPATIBILIDADE FISCAL 100%)
+• O robô no WhatsApp gera as batidas e a nossa Engine emite automaticamente o arquivo texto AFD 671
+  já assinado com hash e formatação oficial para importar em lote no Control iD ou na folha.
+• Vantagem: Zero risco de rejeição por qualquer fiscalização do trabalho (MTE).
+
+CAMINHO C: CONCILIAÇÃO DUAL (OMNI PONTO HUB)
+• O Omni Ponto atua como o 'Cérebro Central':
+  1. Lê os 496 funcionários e 103 obras do Control iD via API automaticamente.
+  2. Sincroniza com as obras e orçamentos do Sienge ERP.
+  3. Conduz a conversa pelo WhatsApp.
+  4. Devolve o custo no Sienge e o espelho no Control iD.
+===================================================================================================

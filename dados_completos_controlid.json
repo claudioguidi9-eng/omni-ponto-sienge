@@ -1,0 +1,464 @@
+{
+  "company": {
+    "records": [
+      {
+        "address": "RUA CURUÇA",
+        "caepf": null,
+        "cei": null,
+        "city": "SÃO PAULO",
+        "cno": null,
+        "cnpj": "14653928000180",
+        "district": "VILA MARIA",
+        "id": 1,
+        "idApprovalFlow": 1,
+        "linkedDeviceIds": [],
+        "name": "OMNI TRADE BRASIL REVESTIMENTOS METALICOS LTDA",
+        "numFolha": "0",
+        "numPersons": 165,
+        "serialRep": null,
+        "sponsorCpf": "23522774850",
+        "sponsorEmail": "ricardosantos@omnitradebrasil.com",
+        "sponsorName": "0",
+        "sponsorRole": "0",
+        "state": "sp",
+        "timeZone": 1,
+        "tradingName": "OMNI TRADE BRASIL",
+        "zip": "02120002"
+      }
+    ],
+    "totalRecords": 1
+  },
+  "costcenters": {
+    "records": [
+      {
+        "id": 88,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "121 - DIREÇÃO PRESIDENCIA"
+      },
+      {
+        "id": 95,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1210 - FINANCEIRO"
+      },
+      {
+        "id": 96,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1211 - MARKETING"
+      },
+      {
+        "id": 97,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1212 - FABRICAÇÃO, LOGISTICA E COMPRAS_INDIRETOS"
+      },
+      {
+        "id": 98,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1213 - TI & COMUNICAÇÕES"
+      },
+      {
+        "id": 99,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1214 - PROCESSOS"
+      },
+      {
+        "id": 100,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1215 - ADMINISTRATIVO"
+      },
+      {
+        "id": 101,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1216 - RESIDENCIAL INDIRETOS"
+      },
+      {
+        "id": 107,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "1217"
+      },
+      {
+        "id": 102,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1217 - INDUTRIAL DIRETO"
+      },
+      {
+        "id": 103,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1219 - FABRICAÇÃO DIRETO"
+      },
+      {
+        "id": 89,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "122 - DIREÇÃO GERAL"
+      },
+      {
+        "id": 104,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1220 - SIENGE"
+      },
+      {
+        "id": 105,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1221 - CONTROLLER"
+      },
+      {
+        "id": 106,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "1222 - LIMPEZA"
+      },
+      {
+        "id": 90,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "124 - INDUTRIAL INDIRETOS"
+      },
+      {
+        "id": 86,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "125 -SEGURANÇA INDIRETOS"
+      },
+      {
+        "id": 91,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "126 - PROJETOS"
+      },
+      {
+        "id": 92,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "127 - ORÇAMENTOS"
+      },
+      {
+        "id": 93,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "128 - COMERCIAL"
+      },
+      {
+        "id": 94,
+        "idCompany": 1,
+        "linkedDeviceIds": [],
+        "name": "129 - RH"
+      },
+      {
+        "id": 3,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "19.016 - FCA_MANUTENÇÃO SITE JEEP, PE"
+      },
+      {
+        "id": 4,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "20.088 - LOCK_CASTELATTO, ATIBAIA,SP"
+      },
+      {
+        "id": 5,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.022 - LAMPUR_RUA SUIÇA 19, JARDIM EUROPA, SP"
+      },
+      {
+        "id": 6,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.024 - CLUBE PAINEIRAS MORUMBY, RETROFIT EM GE,"
+      },
+      {
+        "id": 7,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.050 - ERNESTO HEER_COND. FAZENDA VILA REAL, ITU"
+      },
+      {
+        "id": 8,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.061 - DIASE_AMAZON CD BETIM-RETROFIT E AMPLIAÇÃ"
+      },
+      {
+        "id": 1,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.062-RACIONAL_ARENA MRV, MG"
+      },
+      {
+        "id": 9,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.074 - SAVÉRIO - ARAÇATUBA, SP"
+      },
+      {
+        "id": 10,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.076 - DIASE_AMAZON GRU8, CAJAMAR, SP"
+      },
+      {
+        "id": 11,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.086 - GAIA_Q42 L06, FBV, SP"
+      },
+      {
+        "id": 12,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "21.097 - LOG_AMAZON CD REC3-DECK, PE"
+      },
+      {
+        "id": 13,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.001 - YAMA_RES KLAUSS, ARAÇATUBA,SP"
+      },
+      {
+        "id": 14,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.002 - FREMASA_ANA CAROLINA LUI, CAMPOS DO JORDÃ"
+      },
+      {
+        "id": 15,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.003 - LZ ENG_MARCO AURELIO MARTINS, RESERVA PAR"
+      },
+      {
+        "id": 16,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.005 - CLP_RUA CURITIBA 339, SÃO PAULO, SP"
+      },
+      {
+        "id": 17,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.006 - ENGEDAM_AUTOZONE POUSO ALEGRE, SP"
+      },
+      {
+        "id": 18,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.007 - ENGEDAM_AUTOZONE SANTOS, SP"
+      },
+      {
+        "id": 19,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.008 - ENGEDEZ_AUTOZONE UBERLANDIA, SP"
+      },
+      {
+        "id": 20,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.009 - HOGA_AUTOZONE GUARATINGUETÁ, SP"
+      },
+      {
+        "id": 21,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.010 - HOGA_AUTOZONE S. JOSÉ DOS CAMPOS, SP"
+      },
+      {
+        "id": 22,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.011-HOGA_AUTOZONE RIBEIRÃO PRETO, SP"
+      },
+      {
+        "id": 23,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.013-ALFA_Q39L07, FBV, SP"
+      },
+      {
+        "id": 24,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.014 - VIGGIANI_RES.GABRIELA, PRAIA VERMELHA DO"
+      },
+      {
+        "id": 25,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.015-EVEN_RUA PAULISTÂNIA 319, SP"
+      },
+      {
+        "id": 26,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.016 - APTAR_ABERTURAS CORDEBRAS, BA"
+      },
+      {
+        "id": 27,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.017 - FREMASA_HELOY RUDGE, ALTO DE PINHEIROS, S"
+      },
+      {
+        "id": 28,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.018 - LOCK_ FELIPE TREVISAN, FAZENDA DA GRAMA,"
+      },
+      {
+        "id": 29,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.019-FREMASA_PEDRO FREITAS, ITU, SP"
+      },
+      {
+        "id": 30,
+        "idCompany": null,
+        "linkedDeviceIds": [],
+        "name": "22.020-PTR²_ALICE COUTINHO, MORUMBI, SP"
+      }
+    ],
+    "totalRecords": 103
+  },
+  "devices": {
+    "records": [
+      {
+        "id": 6,
+        "lastConnectionDate": "/Date(1792325521242-0300)/",
+        "lastSyncDate": "/Date(1792325521242-0300)/",
+        "linkedCompanyId": 1,
+        "listOfLinkedCompanyIds": null,
+        "listOfLinkedCostCenterIds": null,
+        "listOfLinkedDepartmentIds": null,
+        "listOfLinkedPersonIds": null,
+        "model": 5,
+        "name": "24.152 - GUARNIERI_CORDEBRAS - CAMAÇARI, BA",
+        "numberOfFingerprints": 0,
+        "numberOfPeople": 0,
+        "sendAll": true,
+        "serial": "0M0200/004DC5",
+        "status": "OK",
+        "statusPapel": null,
+        "timeZone": 1,
+        "version": null
+      },
+      {
+        "id": 5,
+        "lastConnectionDate": "/Date(1755756129512-0300)/",
+        "lastSyncDate": "/Date(1755756129512-0300)/",
+        "linkedCompanyId": 1,
+        "listOfLinkedCompanyIds": null,
+        "listOfLinkedCostCenterIds": null,
+        "listOfLinkedDepartmentIds": null,
+        "listOfLinkedPersonIds": null,
+        "model": 5,
+        "name": "CPQ 11",
+        "numberOfFingerprints": 0,
+        "numberOfPeople": 0,
+        "sendAll": true,
+        "serial": "0M0200/004DD1",
+        "status": "ERRO",
+        "statusPapel": null,
+        "timeZone": 1,
+        "version": null
+      },
+      {
+        "id": 3,
+        "lastConnectionDate": "/Date(1775749620384-0300)/",
+        "lastSyncDate": "/Date(1685402942282-0300)/",
+        "linkedCompanyId": 1,
+        "listOfLinkedCompanyIds": null,
+        "listOfLinkedCostCenterIds": null,
+        "listOfLinkedDepartmentIds": null,
+        "listOfLinkedPersonIds": null,
+        "model": 5,
+        "name": "REP 3",
+        "numberOfFingerprints": 0,
+        "numberOfPeople": 0,
+        "sendAll": true,
+        "serial": "0M0200/004DE3",
+        "status": "ERRO",
+        "statusPapel": null,
+        "timeZone": 1,
+        "version": null
+      },
+      {
+        "id": 4,
+        "lastConnectionDate": "/Date(1762215120535-0300)/",
+        "lastSyncDate": "/Date(1762214819710-0300)/",
+        "linkedCompanyId": 1,
+        "listOfLinkedCompanyIds": null,
+        "listOfLinkedCostCenterIds": null,
+        "listOfLinkedDepartmentIds": null,
+        "listOfLinkedPersonIds": null,
+        "model": 5,
+        "name": "REP 4",
+        "numberOfFingerprints": 0,
+        "numberOfPeople": 0,
+        "sendAll": true,
+        "serial": "0M0200/004DFF",
+        "status": "ERRO",
+        "statusPapel": null,
+        "timeZone": 1,
+        "version": null
+      },
+      {
+        "id": 1,
+        "lastConnectionDate": "/Date(1792325648526-0300)/",
+        "lastSyncDate": "/Date(1792325648526-0300)/",
+        "linkedCompanyId": 1,
+        "listOfLinkedCompanyIds": null,
+        "listOfLinkedCostCenterIds": null,
+        "listOfLinkedDepartmentIds": null,
+        "listOfLinkedPersonIds": null,
+        "model": 5,
+        "name": "REP ESCRITÓRIO",
+        "numberOfFingerprints": 0,
+        "numberOfPeople": 0,
+        "sendAll": true,
+        "serial": "0M0200/004E04",
+        "status": "OK",
+        "statusPapel": null,
+        "timeZone": 1,
+        "version": null
+      },
+      {
+        "id": 2,
+        "lastConnectionDate": "/Date(1792325577090-0300)/",
+        "lastSyncDate": "/Date(1792325577090-0300)/",
+        "linkedCompanyId": 1,
+        "listOfLinkedCompanyIds": null,
+        "listOfLinkedCostCenterIds": null,
+        "listOfLinkedDepartmentIds": null,
+        "listOfLinkedPersonIds": null,
+        "model": 5,
+        "name": "REP GALPÃO",
+        "numberOfFingerprints": 0,
+        "numberOfPeople": 0,
+        "sendAll": true,
+        "serial": "0M0200/004DE0",
+        "status": "OK",
+        "statusPapel": null,
+        "timeZone": 1,
+        "version": null
+      }
+    ],
+    "totalRecords": 6
+  },
+  "amostraPessoas": [],
+  "apuracoes": [],
+  "afdTextAmostra": "000000000111465392800018000000000000000OMNI TRADE BRASIL REVESTIMENTOS METALICOS LTDA                                                                                                        000051202100293642026-10-012026-10-182026-10-18T09:17:00-0300004108238299000129                              2adf\r\n00025444872026-10-01T07:52:00+01000624136553362026-10-01T03:52:00-0300010866b0af6aa03b6076ff9bda0481a2d8b5a1eb5fcf5a51af5e20c4bc7634f5e49\r\n00025444972026-10-01T07:53:00+01000050391613792026-10-01T03:53:00-03000102ea66c5298cb34e34226d8282721eccb9e29d6423fb4e0a84f9194a6fa66de56\r\n00025445072026-10-01T08:46:00+01000058457953542026-10-01T05:13:00-03000116073c1246bade4bbce2a1258321d41365891b4f80197d938ae4b0e957c71cb45\r\n00025445172026-10-01T06:33:00-03000016726004992026-10-01T06:33:00-0300010f74ef052971844f77b47e674347568e93b10b6c15307282c3589baeffcc154b7\r\n00025445272026-10-01T06:33:00-03000111993177052026-10-01T06:33:00-030001025f75531cfb1c099bf2aab3b1ee617931b1fb542129cd5ea80137fab292c6ff8\r\n00025445372026-10-01T06:34:00-03000072776033542026-10-01T06:34:00-0300010712a3219bb7b00d4d5af96198400b8085a5ec4fe3d0d5845521f17257907dd3d\r\n00025445472026-10-01T06:34:00-03000642137693402026-10-01T06:34:00-03000106f82140f79d13b4b195d955f565d6f7441183fbd99e3af95141edd878e3e2f1f\r\n00025445572026-10-01T06:34:00-03000063462093292026-10-01T06:34:00-0300010e05854ed7b785c72270767fb7d0752104ed2634dde22b8642ea78d2d1ae0b7f4\r\n00025445672026-10-01T06:34:00-03000088073953392026-10-01T06:34:00-0300010940713d130e74021107ba0da530b34b3a4a2d0c1f80098209a5df48955962029\r\n00025445772026-10-01T06:34:00-03000022304473352026-10-01T06:34:00-0300010c3710a5ce52c954681ab41644769b1c7222f3887bf00866ace895aac16c4c783\r\n00025445872026-10-01T06:35:00-03000108207353962026-10-01T06:35:00-03000108032ef67de329a98e401c5605ff6323e8b168e0548596fbef087b63a24f9155a\r\n00025445972026-10-01T06:35:00-03000094769333562026-10-01T06:35:00-03000108c348bd05d80593a036fa5ee9e9bea02391969ad7372ab65705bf0bc3831af65\r\n00025446072026-10-01T06:35:00-03000350611718102026-10-01T06:35:00-0300010a70d4fd13ce46af7bded20f5c772a46247fc7ef6773fca2af93367366e24ecdf\r\n00025446172026-10-01T06:35:00-03000073089273502026-10-01T06:35:00-03000107144137fe4540bb117a331c781bc08f2930bf709284acb163935e79bf4b5132f\r\n00025446272026-10-01T06:35:00-03000087960653382026-10-01T06:35:00-0300010106258aa8092e5b835cbd1a5d437aeee84b45c82d97af0bcdd0c17bf652b2586\r\n00025446372026-10-01T06:35:00-03000276620568302026-10-01T06:35:00-0300010459aa8da8a6195427f6d4616d701b89165cfd38955cc7755be9bcbeba8c4ffe2\r\n00025446472026-10-01T06:36:00-03000067103053172026-10-01T06:36:00-03000104406fc8422e140f9fdf23b7f8208d124723be5e0de24e62c002eae9f24d4b13b\r\n00025446572026-10-01T06:36:00-03000056285423182026-10-01T06:36:00-03000101c8c4fd860a56e976b41767c02bd383ef31eed07e98220b8b3b43717d2595d2a\r\n00025446672026-10-01T06:36:00-03000236420148952026-10-01T06:36:00-03000109b67e31edafaacc18e6c65dcbe1ea4a579586e57c9e232dc67f85033eab1a209\r\n00025446772026-10-01T06:36:00-03000181410537952026-10-01T06:36:00-030001010b6413c573c509849a4f678009c16a34d7a4fe08df348438356652ffa7dc0ed\r\n00025446872026-10-01T06:38:00-03000078426393022026-10-01T06:38:00-0300010c0f4513af8619a875088930c8e5756d189fe1d1615be9bc4eef03e2a9853a258\r\n00025446972026-10-01T06:38:00-03000046425153212026-10-01T06:38:00-0300010578288107f91d45e8841c9926004b222f4379072fe693243e33471dc315c3af4\r\n00025447072026-10-01T06:39:00-03000077882563902026-10-01T06:39:00-0300010b329e30178a09cbde34d808c528a853b39f7ce893ce7599a4bf63e8df91a7ab5\r\n00025447172026-10-01T06:39:00-03000015618533482026-10-01T06:39:00-030001032b9ffc8936157092e2ea211a818bd8e1302dbb4a0fc50d630709ef4f2acbfc7\r\n00025447272026-10-01T06:39:00-03000586166592342026-10-01T06:39:00-0300010952e34143e14bf4061f87feb4deb4a1f68da516de7c359e1c19e9d0f57655282\r\n00025447372026-10-01T06:41:00-03000068691323052026-10-01T06:41:00-0300010d6ed77e55016bfe3d547017148e682dec14c801312a4e4368331497d59f93b06\r\n00025447472026-10-01T06:41:00-03000072150483302026-10-01T06:41:00-03000104117e6652ad0aa301d984633b42b0bdf6117264f77d2b2336e99fc430959fbee\r\n00025447572026-10-01T06:42:00-03000630565033022026-10-01T06:42:00-0300010b01494038a15fc98ac3c4792993c7c5b78cf6b0dce99b985ff5106724c6c384d\r\n00025447672026-10-01T06:42:00-03000075741783302026-10-01T06:42:00-0300010b0550d8f49ced9fd65bb84b48eec937a9705e4fc3734cd2f692621862059a170\r\n00025447772026-10-01T06:46:00-03000082222513172026-10-01T06:46:00-03000104df113e80fca57ea84ebc2616ac3eeeb9e2f1c504845595285bad3b2abe907ff\r\n00025447872026-10-01T06:46:00-03000095095393842026-10-01T06:46:00-0300010343e8232d8c5ec3c6a15896327a03ddf9f9d98a200b6d99dd297411c02fc52d1\r\n00025447972026-10-01T06:46:00-03000097343903332026-10-01T06:46:00-030001008fa6a44c0bb1794ca3ebc87149fea544761b392a70a7dbdbfd29ad49f35c4dd\r\n00025448072026-10-01T06:46:00-03000606784292002026-10-01T06:46:00-03000105e059c73ad3a367cbc9a025d4845eb1d6e1fd6b34162f0cc84d87bad41be1b00\r\n00025448172026-10-01T06:49:00-03000094003513802026-10-01T06:49:00-03000408996085364b25f96e275b407b6dcc039f3e9"
+}

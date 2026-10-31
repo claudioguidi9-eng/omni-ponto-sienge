@@ -8,37 +8,50 @@
 
 ## 0. SIMULAÇÃO EXECUTIVA DE APROPRIAÇÃO NO SIENGE ERP (OBRA `24.152`)
 
-### A) Grupos de Valores Salariais & Valor Hora-Homem (Base 220h c/ Encargos)
+### A) Premissa Oficial de Cálculo: MOD (Custo H/H por Cargo), MOI e SG&A
 
-| Código | Grupo de Valor / Categoria Funcional | Colaboradores no Grupo Piloto | Custo Mensal Base (220h) | **Valor HH Base** | Horas Apuradas (Out/26) | **Subtotal Apropriado (R\$)** |
+* **Fatores Indiretos sobre a Receita Operacional Líquida (ROL):**
+  * **SG&A:** `12,50%` sobre a ROL
+  * **MOI (Mão de Obra Indireta):** `5,00%` sobre a ROL
+* **Tabela Oficial de Gente — MOD (Horário Comercial):**
+  * `MOD | Obras | Especialista`: **R\$ 90,00 / h** *(Ref. 220h: R\$ 19.800,00)*
+  * `MOD | Obras | Encarregado (G1)`: **R\$ 75,00 / h** *(Ref. 220h: R\$ 16.500,00)*
+  * `MOD | Obras | Líder (G2)`: **R\$ 45,00 / h** *(Ref. 220h: R\$ 9.900,00)*
+  * `MOD | Obras | Montador (G3)`: **R\$ 35,00 / h** *(Ref. 220h: R\$ 7.700,00)*
+  * `MOD | Obras | Ajudante (G4)`: **R\$ 25,00 / h** *(Ref. 220h: R\$ 5.500,00)*
+  * `MOD | Obras | Analista`: **R\$ 40,00 / h** *(Ref. 220h: R\$ 8.800,00)*
+  * `MOD | Projetos | Geral`: **R\$ 50,00 / h** *(Ref. 220h: R\$ 11.000,00)*
+  * `MOD | Excelência Operacional | Geral`: **R\$ 70,00 / h** *(Ref. 220h: R\$ 15.400,00)*
+
+| Código | Classificação / Cargo (Premissa MOD) | Colaboradores no Grupo Piloto | **Valor H/H Oficial** | Ref. Base (220h) | Horas Apuradas (Out/26) | **Subtotal MOD (R\$)** |
 | :---: | :--- | :---: | :---: | :---: | :---: | :---: |
-| **G1** | **Liderança de Campo (Encarregado de Obras)** | 1 (`José Sanches`) | R\$ 12.500,00 | **R\$ 56,82 / h** | 193,22 h | **R\$ 10.978,76** |
-| **G2** | **Supervisão Técnica (Líder de Obras)** | 2 (`Tiago`, `Jonata`) | R\$ 7.670,00 | **R\$ 34,86 / h** | 377,09 h | **R\$ 13.145,36** |
-| **G3** | **Execução Especializada (Montador / Op. Guindauto)** | 3 (`Antonio`, `Fabio`, `Joseilton`) | R\$ 7.670,00 | **R\$ 34,86 / h** | 555,53 h | **R\$ 19.365,78** |
-| **G4** | **Apoio Operacional (Ajudante)** | 2 (`Carlos Henrique`, `Janderson`) | R\$ 5.670,00 | **R\$ 25,77 / h** | 378,46 h | **R\$ 9.752,91** |
-| **TOTAL** | **Consolidado Equipe Piloto (8 Colaboradores)** | **8 homens** | **R\$ 62.190,00** | **R\$ 35,40 / h** *(médio)* | **1.504,30 h** | **R\$ 53.242,81** |
+| **G1** | **MOD • Obras — Encarregado** | 1 (`José Sanches`) | **R\$ 75,00 / h** | R\$ 16.500,00 | 222,48 h | **R\$ 16.686,00** |
+| **G2** | **MOD • Obras — Líder** | 2 (`Tiago`, `Jonata`) | **R\$ 45,00 / h** | R\$ 9.900,00 | 454,62 h | **R\$ 20.457,90** |
+| **G3** | **MOD • Obras — Montador / Op. Guindauto** | 3 (`Antonio`, `Fabio`, `Joseilton`) | **R\$ 35,00 / h** | R\$ 7.700,00 | 668,62 h | **R\$ 23.401,70** |
+| **G4** | **MOD • Obras — Ajudante** | 2 (`Carlos Henrique`, `Janderson`) | **R\$ 25,00 / h** | R\$ 5.500,00 | 452,95 h | **R\$ 11.323,75** |
+| **TOTAL** | **Consolidado Equipe Piloto (8 Colaboradores)** | **8 homens** | **R\$ 39,96 / h** *(médio)* | **R\$ 70.400,00** | **1.798,67 h** | **R\$ 71.869,35** |
 
-### B) Demonstrativo Nominal de Apropriação no Centro de Custo `24152`
+### B) Demonstrativo Nominal de Apropriação no Centro de Custo `24152` (01/10 a 30/10/2026)
 
-| Matrícula | Colaborador | Cargo / Função | Grupo | Dias Efet. | H. Normais | H. Extras | **Total Horas** | **Valor HH** | **HH Efetivo** *(Fixo÷H)* | **Custo Apropriado (R\$)** |
+| Matrícula | Colaborador | Cargo (Premissa MOD) | Grupo | Dias Efet. | H. Normais | H. Extras | **Total Horas** | **Valor H/H** | **Custo Comercial (R\$)** | **Custo c/ HE +50% (R\$)** |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| `154` | **JOSE SANCHES TAVARES** | ENCARREGADO DE OBRAS | `G1` | 20d | 147,13 h | 46,08 h | **193,22 h** (`193:13`) | R\$ 56,82/h | R\$ 64,69/h | **R\$ 10.978,76** |
-| `198` | **TIAGO ALVES DE SOUSA** | LIDER DE OBRAS | `G2` | 19d | 137,33 h | 45,98 h | **183,32 h** (`183:19`) | R\$ 34,86/h | R\$ 41,84/h | **R\$ 6.390,54** |
-| `1069` | **JONATA OLIVEIRA MELO** | LIDER DE OBRAS | `G2` | 21d | 147,88 h | 45,88 h | **193,77 h** (`193:46`) | R\$ 34,86/h | R\$ 39,58/h | **R\$ 6.754,82** |
-| `1252` | **ANTONIO CARLOS SOUSA OLIVEIRA** | MONTADOR | `G3` | 20d | 140,00 h | 51,88 h | **191,88 h** (`191:53`) | R\$ 34,86/h | R\$ 39,97/h | **R\$ 6.688,94** |
-| `1277` | **FABIO FERREIRA DE OLIVEIRA** | MONTADOR | `G3` | 21d | 140,00 h | 63,48 h | **203,48 h** (`203:29`) | R\$ 34,86/h | R\$ 37,69/h | **R\$ 7.093,31** |
-| `1341` | **CARLOS HENRIQUE DE SOUZA SILVA** | AJUDANTE | `G4` | 21d | 149,00 h | 52,98 h | **201,98 h** (`201:59`) | R\$ 25,77/h | R\$ 28,07/h | **R\$ 5.205,02** |
-| `1348` | **JOSEILTON NOGUEIRA DE SOUZA** | MOT. OP. DE GUINDAUTO | `G3` | 18d | 151,33 h | 8,83 h | **160,17 h** (`160:10`) | R\$ 34,86/h | R\$ 47,89/h | **R\$ 5.583,53** |
-| `1386` | **JANDERSON DA SILVA E SILVA** | AJUDANTE | `G4` | 20d | 141,20 h | 35,28 h | **176,48 h** (`176:29`) | R\$ 25,77/h | R\$ 32,13/h | **R\$ 4.547,89** |
-| **TOTAL** | **8 COLABORADORES (EQUIPE TAVARES)** | — | — | **160d** | **1.153,88 h** | **350,42 h** | **1.504,30 h** (`1504:18`) | **R\$ 35,40/h** | **R\$ 41,34/h** | **R\$ 53.242,81** |
+| `154` | **JOSE SANCHES TAVARES** | MOD • Obras • Encarregado | `G1` | 23d | 157,00 h | 65,48 h | **222,48 h** (`222:29`) | R\$ 75,00/h | **R\$ 16.686,00** | R\$ 19.141,50 |
+| `198` | **TIAGO ALVES DE SOUSA** | MOD • Obras • Líder | `G2` | 23d | 157,00 h | 65,32 h | **222,32 h** (`222:19`) | R\$ 45,00/h | **R\$ 10.004,40** | R\$ 11.474,10 |
+| `1069` | **JONATA OLIVEIRA MELO** | MOD • Obras • Líder | `G2` | 25d | 171,12 h | 61,18 h | **232,30 h** (`232:18`) | R\$ 45,00/h | **R\$ 10.453,50** | R\$ 11.830,05 |
+| `1252` | **ANTONIO CARLOS SOUSA OLIVEIRA** | MOD • Obras • Montador | `G3` | 24d | 175,00 h | 56,18 h | **231,18 h** (`231:11`) | R\$ 35,00/h | **R\$ 8.091,30** | R\$ 9.074,45 |
+| `1277` | **FABIO FERREIRA DE OLIVEIRA** | MOD • Obras • Montador | `G3` | 25d | 175,00 h | 67,92 h | **242,92 h** (`242:55`) | R\$ 35,00/h | **R\$ 8.502,20** | R\$ 9.690,80 |
+| `1341` | **CARLOS HENRIQUE DE SOUZA SILVA** | MOD • Obras • Ajudante | `G4` | 25d | 184,00 h | 57,23 h | **241,23 h** (`241:14`) | R\$ 25,00/h | **R\$ 6.030,75** | R\$ 6.746,13 |
+| `1348` | **JOSEILTON NOGUEIRA DE SOUZA** | MOD • Obras • Montador (Guindauto) | `G3` | 22d | 182,88 h | 11,64 h | **194,52 h** (`194:31`) | R\$ 35,00/h | **R\$ 6.808,20** | R\$ 7.011,90 |
+| `1386` | **JANDERSON DA SILVA E SILVA** | MOD • Obras • Ajudante | `G4` | 24d | 175,00 h | 36,72 h | **211,72 h** (`211:43`) | R\$ 25,00/h | **R\$ 5.293,00** | R\$ 5.752,00 |
+| **TOTAL** | **8 COLABORADORES (EQUIPE TAVARES)** | — | — | **191d** | **1.377,00 h** | **421,67 h** | **1.798,67 h** (`1798:40`) | **R\$ 39,96/h** | **R\$ 71.869,35** | **R\$ 80.720,93** |
 
 ### C) Espelho de Lançamento no Sienge ERP (Obra `24152` vs. CC Central `1217`)
 
 | Estrutura Sienge | Centro de Custo / Obra | Conta Financeira / Item Orçamentário (WBS) | Natureza | Valor Simulado |
 | :--- | :--- | :--- | :---: | :---: |
-| **Orçamento de Obra (`buildings-cost`)** | `24152` — GUARNIERI_CORDEBRAS (Unid. `0 - OBRA BASE`) | WBS `00.000.001.007` — **MÃO DE OBRA DE INSTALAÇÃO** *(Orçado: R\$ 1.454.382,84)* | Apropriação Física/Orçamentária | **+ R\$ 53.242,81** *(3,66% do orçamento)* |
-| **Plano Financeiro (`budget-categories`)** | `24152` — GUARNIERI_CORDEBRAS | Conta `2030114` — **Alocação de custos de MO para as obras** | Entrada Custo na Obra (+) | **+ R\$ 53.242,81** |
-| **Contrapartida Central (`budget-categories`)** | `1217` — 1.2.17 - INDUSTRIAL DIRETO | Conta `2030113` — **(-) Anulação de Custos Mão de Obra** | Baixa do CC Concentrador (-) | **- R\$ 53.242,81** |
+| **Orçamento de Obra (`buildings-cost`)** | `24152` — GUARNIERI_CORDEBRAS (Unid. `0 - OBRA BASE`) | WBS `00.000.001.007` — **MÃO DE OBRA DE INSTALAÇÃO** *(Orçado: R\$ 1.454.382,84)* | Apropriação Física/Orçamentária | **+ R\$ 71.869,35** *(4,94% do orçamento)* |
+| **Plano Financeiro (`budget-categories`)** | `24152` — GUARNIERI_CORDEBRAS | Conta `2030114` — **Alocação de custos de MO para as obras** | Entrada Custo na Obra (+) | **+ R\$ 71.869,35** |
+| **Contrapartida Central (`budget-categories`)** | `1217` — 1.2.17 - INDUSTRIAL DIRETO | Conta `2030113` — **(-) Anulação de Custos Mão de Obra** | Baixa do CC Concentrador (-) | **- R\$ 71.869,35** |
 
 ---
 

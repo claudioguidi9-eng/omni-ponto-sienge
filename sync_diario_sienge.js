@@ -20,54 +20,82 @@ const GRUPO_PILOTO_IDS = [355, 412, 448, 616, 310, 695, 708, 735];
 // Equipe Complementar que também bate ponto no REP #6 de Camaçari (Equipe Helder Borges)
 const EQUIPE_COMPLEMENTAR_IDS = [325, 469, 579, 295, 727, 744, 748];
 
-// Mapeamento de Cargos e Grupos de Valores (Base 220h c/ Encargos - motor_calculo.js)
+// Mapeamento de Cargos e Grupos de Valores — Premissa Oficial de Cálculo (MOD, MOI e SG&A)
+const PREMISSA_FATORES_ROL = {
+  sga: { classificacao: 'SG&A', fatorPct: 12.50, comentario: 'Receita Operacional Líquida (ROL)' },
+  moi: { classificacao: 'MOI', fatorPct: 5.00, comentario: 'Receita Operacional Líquida (ROL)' }
+};
+
+const TABELA_OFICIAL_MOD_HH = [
+  { codigo: 'MOD-ESP', classificacao: 'MOD', departamento: 'Obras', cargo: 'Especialista', valorHH: 90.00, equivalente220h: 19800.00, ativoNaObra: false },
+  { codigo: 'G1', key: 'G1_ENCARREGADO', classificacao: 'MOD', departamento: 'Obras', cargo: 'Encarregado', valorHH: 75.00, equivalente220h: 16500.00, ativoNaObra: true },
+  { codigo: 'G2', key: 'G2_LIDER', classificacao: 'MOD', departamento: 'Obras', cargo: 'Líder', valorHH: 45.00, equivalente220h: 9900.00, ativoNaObra: true },
+  { codigo: 'G3', key: 'G3_MONTADOR', classificacao: 'MOD', departamento: 'Obras', cargo: 'Montador', valorHH: 35.00, equivalente220h: 7700.00, ativoNaObra: true },
+  { codigo: 'G4', key: 'G4_AJUDANTE', classificacao: 'MOD', departamento: 'Obras', cargo: 'Ajudante', valorHH: 25.00, equivalente220h: 5500.00, ativoNaObra: true },
+  { codigo: 'MOD-ANA', classificacao: 'MOD', departamento: 'Obras', cargo: 'Analista', valorHH: 40.00, equivalente220h: 8800.00, ativoNaObra: false },
+  { codigo: 'MOD-PRJ', classificacao: 'MOD', departamento: 'Projetos', cargo: 'Geral', valorHH: 50.00, equivalente220h: 11000.00, ativoNaObra: false },
+  { codigo: 'MOD-EXO', classificacao: 'MOD', departamento: 'Excelência Operacional', cargo: 'Geral', valorHH: 70.00, equivalente220h: 15400.00, ativoNaObra: false }
+];
+
 const CARGOS_OVERRIDE = {
-  355: { cargo: 'ENCARREGADO DE OBRAS', grupoValor: 'G1_ENCARREGADO', matricula: '154', equipe: 'Equipe José Tavares (Piloto)' },
-  412: { cargo: 'LIDER DE OBRAS', grupoValor: 'G2_LIDER', matricula: '198', equipe: 'Equipe José Tavares (Piloto)' },
-  448: { cargo: 'LIDER DE OBRAS', grupoValor: 'G2_LIDER', matricula: '1069', equipe: 'Equipe José Tavares (Piloto)' },
-  616: { cargo: 'MONTADOR', grupoValor: 'G3_MONTADOR', matricula: '1252', equipe: 'Equipe José Tavares (Piloto)' },
-  310: { cargo: 'MONTADOR', grupoValor: 'G3_MONTADOR', matricula: '1277', equipe: 'Equipe José Tavares (Piloto)' },
-  695: { cargo: 'AJUDANTE', grupoValor: 'G4_AJUDANTE', matricula: '1341', equipe: 'Equipe José Tavares (Piloto)' },
-  708: { cargo: 'MOTORISTA OP. DE GUINDAUTO', grupoValor: 'G3_MONTADOR', matricula: '1348', equipe: 'Equipe José Tavares (Piloto)' },
-  735: { cargo: 'AJUDANTE', grupoValor: 'G4_AJUDANTE', matricula: '1386', equipe: 'Equipe José Tavares (Piloto)' },
+  355: { cargo: 'ENCARREGADO DE OBRAS', cargoPremissa: 'Encarregado', departamentoPremissa: 'Obras', grupoValor: 'G1_ENCARREGADO', matricula: '154', equipe: 'Equipe José Tavares (Piloto)' },
+  412: { cargo: 'LIDER DE OBRAS', cargoPremissa: 'Líder', departamentoPremissa: 'Obras', grupoValor: 'G2_LIDER', matricula: '198', equipe: 'Equipe José Tavares (Piloto)' },
+  448: { cargo: 'LIDER DE OBRAS', cargoPremissa: 'Líder', departamentoPremissa: 'Obras', grupoValor: 'G2_LIDER', matricula: '1069', equipe: 'Equipe José Tavares (Piloto)' },
+  616: { cargo: 'MONTADOR', cargoPremissa: 'Montador', departamentoPremissa: 'Obras', grupoValor: 'G3_MONTADOR', matricula: '1252', equipe: 'Equipe José Tavares (Piloto)' },
+  310: { cargo: 'MONTADOR', cargoPremissa: 'Montador', departamentoPremissa: 'Obras', grupoValor: 'G3_MONTADOR', matricula: '1277', equipe: 'Equipe José Tavares (Piloto)' },
+  695: { cargo: 'AJUDANTE', cargoPremissa: 'Ajudante', departamentoPremissa: 'Obras', grupoValor: 'G4_AJUDANTE', matricula: '1341', equipe: 'Equipe José Tavares (Piloto)' },
+  708: { cargo: 'MOTORISTA OP. DE GUINDAUTO', cargoPremissa: 'Montador', departamentoPremissa: 'Obras', grupoValor: 'G3_MONTADOR', matricula: '1348', equipe: 'Equipe José Tavares (Piloto)' },
+  735: { cargo: 'AJUDANTE', cargoPremissa: 'Ajudante', departamentoPremissa: 'Obras', grupoValor: 'G4_AJUDANTE', matricula: '1386', equipe: 'Equipe José Tavares (Piloto)' },
   // Equipe complementar no REP #6
-  325: { cargo: 'ENCARREGADO DE OBRAS', grupoValor: 'G1_ENCARREGADO', matricula: '1284', equipe: 'Equipe Helder Borges (REP #6)' },
-  469: { cargo: 'MONTADOR', grupoValor: 'G3_MONTADOR', matricula: '1105', equipe: 'Equipe Helder Borges (REP #6)' },
-  579: { cargo: 'MONTADOR', grupoValor: 'G3_MONTADOR', matricula: '1215', equipe: 'Equipe Helder Borges (REP #6)' },
-  295: { cargo: 'LIDER DE OBRAS', grupoValor: 'G2_LIDER', matricula: '1262', equipe: 'Equipe Helder Borges (REP #6)' },
-  727: { cargo: 'AJUDANTE', grupoValor: 'G4_AJUDANTE', matricula: '1374', equipe: 'Equipe Helder Borges (REP #6)' },
-  744: { cargo: 'AJUDANTE', grupoValor: 'G4_AJUDANTE', matricula: '1395', equipe: 'Equipe Helder Borges (REP #6)' },
-  748: { cargo: 'MONTADOR', grupoValor: 'G3_MONTADOR', matricula: '1399', equipe: 'Equipe Helder Borges (REP #6)' }
+  325: { cargo: 'ENCARREGADO DE OBRAS', cargoPremissa: 'Encarregado', departamentoPremissa: 'Obras', grupoValor: 'G1_ENCARREGADO', matricula: '1284', equipe: 'Equipe Helder Borges (REP #6)' },
+  469: { cargo: 'MONTADOR', cargoPremissa: 'Montador', departamentoPremissa: 'Obras', grupoValor: 'G3_MONTADOR', matricula: '1105', equipe: 'Equipe Helder Borges (REP #6)' },
+  579: { cargo: 'MONTADOR', cargoPremissa: 'Montador', departamentoPremissa: 'Obras', grupoValor: 'G3_MONTADOR', matricula: '1215', equipe: 'Equipe Helder Borges (REP #6)' },
+  295: { cargo: 'LIDER DE OBRAS', cargoPremissa: 'Líder', departamentoPremissa: 'Obras', grupoValor: 'G2_LIDER', matricula: '1262', equipe: 'Equipe Helder Borges (REP #6)' },
+  727: { cargo: 'AJUDANTE', cargoPremissa: 'Ajudante', departamentoPremissa: 'Obras', grupoValor: 'G4_AJUDANTE', matricula: '1374', equipe: 'Equipe Helder Borges (REP #6)' },
+  744: { cargo: 'AJUDANTE', cargoPremissa: 'Ajudante', departamentoPremissa: 'Obras', grupoValor: 'G4_AJUDANTE', matricula: '1395', equipe: 'Equipe Helder Borges (REP #6)' },
+  748: { cargo: 'MONTADOR', cargoPremissa: 'Montador', departamentoPremissa: 'Obras', grupoValor: 'G3_MONTADOR', matricula: '1399', equipe: 'Equipe Helder Borges (REP #6)' }
 };
 
 const TABELA_GRUPOS_VALORES = {
   G1_ENCARREGADO: {
     codigo: 'G1',
-    nome: 'Grupo 1 — Liderança de Campo (Encarregado)',
-    custoMensalComEncargos: 12500.00,
+    classificacao: 'MOD',
+    departamento: 'Obras',
+    cargoPremissa: 'Encarregado',
+    nome: 'MOD • Obras — Encarregado',
+    custoMensalComEncargos: 16500.00,
     horasBaseMes: 220,
-    valorHH: 56.82
+    valorHH: 75.00
   },
   G2_LIDER: {
     codigo: 'G2',
-    nome: 'Grupo 2 — Supervisão Técnica (Líder de Obras)',
-    custoMensalComEncargos: 7670.00,
+    classificacao: 'MOD',
+    departamento: 'Obras',
+    cargoPremissa: 'Líder',
+    nome: 'MOD • Obras — Líder',
+    custoMensalComEncargos: 9900.00,
     horasBaseMes: 220,
-    valorHH: 34.86
+    valorHH: 45.00
   },
   G3_MONTADOR: {
     codigo: 'G3',
-    nome: 'Grupo 3 — Execução Especializada (Montador / Guindauto)',
-    custoMensalComEncargos: 7670.00,
+    classificacao: 'MOD',
+    departamento: 'Obras',
+    cargoPremissa: 'Montador',
+    nome: 'MOD • Obras — Montador / Guindauto',
+    custoMensalComEncargos: 7700.00,
     horasBaseMes: 220,
-    valorHH: 34.86
+    valorHH: 35.00
   },
   G4_AJUDANTE: {
     codigo: 'G4',
-    nome: 'Grupo 4 — Apoio Operacional (Ajudante)',
-    custoMensalComEncargos: 5670.00,
+    classificacao: 'MOD',
+    departamento: 'Obras',
+    cargoPremissa: 'Ajudante',
+    nome: 'MOD • Obras — Ajudante',
+    custoMensalComEncargos: 5500.00,
     horasBaseMes: 220,
-    valorHH: 25.77
+    valorHH: 25.00
   }
 };
 
@@ -161,8 +189,9 @@ async function runSync() {
 
     const historicoDiario = days.map(d => {
       const trab = Number(d.totalHorasTrabalhadas || 0);
-      const norm = Number(d.horasDiurnasNaoExtra || 0) + Number(d.horasNoturnasNaoExtra || 0);
-      const ext = Number(d.horasExtrasCalculadas || 0);
+      const normRaw = Number(d.horasDiurnasNaoExtra || 0) + Number(d.horasNoturnasNaoExtra || 0);
+      const norm = Math.min(trab, normRaw);
+      const ext = Math.max(0, trab - norm);
       const falta = Number(d.horasFaltaAtraso || 0);
       const bhPos = Number(d.bancoMaisCredDebPositivo || 0);
       const bhNeg = Number(d.bancoMaisCredDebNegativo || 0);
@@ -199,7 +228,7 @@ async function runSync() {
 
     const horasDecimais = Number((totalMinTrab / 60).toFixed(2));
     const horasNormaisDec = Number((totalMinNormal / 60).toFixed(2));
-    const horasExtrasDec = Number((totalMinExtra / 60).toFixed(2));
+    const horasExtrasDec = Number((horasDecimais - horasNormaisDec).toFixed(2));
     const horasFaltaDec = Number((totalMinFalta / 60).toFixed(2));
 
     const custoPelasHoras = Number((horasDecimais * grupoInfo.valorHH).toFixed(2));
@@ -212,6 +241,9 @@ async function runSync() {
       cpf: cad.cpf || '',
       nome: cad.name || `Colaborador ${id}`,
       cargo: meta.cargo,
+      cargoPremissa: meta.cargoPremissa || grupoInfo.cargoPremissa || 'Montador',
+      departamentoPremissa: meta.departamentoPremissa || grupoInfo.departamento || 'Obras',
+      classificacaoPremissa: 'MOD',
       grupoValorKey: meta.grupoValor,
       grupoCodigo: grupoInfo.codigo,
       grupoNome: grupoInfo.nome,
@@ -368,6 +400,8 @@ async function runSync() {
         }
       }
     },
+    premissaFatoresRol: PREMISSA_FATORES_ROL,
+    tabelaOficialModHH: TABELA_OFICIAL_MOD_HH,
     tabelaGruposValores: TABELA_GRUPOS_VALORES,
     colaboradores
   };

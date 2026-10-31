@@ -1,8 +1,8 @@
 {
-  "ultimaAtualizacao": "2026-10-29T03:01:58.042Z",
+  "ultimaAtualizacao": "2026-10-31T00:37:13.294Z",
   "periodoApuracao": {
     "inicio": "2026-10-01",
-    "fim": "2026-10-29",
+    "fim": "2026-10-31",
     "competencia": "10/2026 (Outubro/2026)"
   },
   "equipamentoControlId": {
@@ -18,7 +18,7 @@
     "nome": "1.4 24.152-GUARNIERI_CORDEBRAS - CAMAÇARI, BA",
     "empresaId": 1,
     "empresaNome": "OMNI TRADE BRASIL REVESTIMENTOS METÁLICOS LTDA",
-    "endereco": "VIA PARAFUSO - KM 13,357 - ZONA INDUSTRIAL - Camaçari - BA",
+    "endereco": "VIA PARAFUSO - 1 - KM 13 357 - ZONA INDUSTRIAL - Camaçari - BA - 42812-900",
     "planilhaId": 0,
     "planilhaNome": "OBRA BASE (UNLOCKED)",
     "wbsAlvo": {
@@ -75,43 +75,210 @@
         "valorApropriadoNaObra24152": 0
       },
       "despesasJaLancadasNaObra24152Em2026": {
-        "totalTitulos": 0,
-        "valorTotalGeral": 0,
-        "totalRefeicoesEquipe": 0,
-        "totalAlojamentoEquipe": 0,
+        "totalTitulos": 196,
+        "valorTotalGeral": 1841454.5,
+        "totalRefeicoesEquipe": 235949,
+        "totalAlojamentoEquipe": 191375.69,
         "totalSalariosApropriados": 0,
-        "ultimosTitulosEquipe": []
+        "ultimosTitulosEquipe": [
+          {
+            "id": 27475,
+            "doc": "NFE",
+            "numero": "145",
+            "data": "2026-10-22",
+            "valor": 9800,
+            "historico": "REFERENTE A REFEIÇOES DE CAFE , ALMOÇO E JANTA EQUIPE JOSÉ TAVARES E EQUIPE HELDER  - PERIODO 01/10 a 15/10"
+          },
+          {
+            "id": 27459,
+            "doc": "NFE",
+            "numero": "191485",
+            "data": "2026-10-19",
+            "valor": 242,
+            "historico": "COMPRA DE WASH PRIMER PARA PINTURA PEÇAS ENC 255 - CORDEBRAS 24.152"
+          },
+          {
+            "id": 27437,
+            "doc": "NFE",
+            "numero": "5",
+            "data": "2026-10-20",
+            "valor": 2140,
+            "historico": "FORNECIMENTO DE CAFE DA MANHÃ EQUIPE CORDEBRAS PERIODO DE 0/08 A 28/09 "
+          },
+          {
+            "id": 27387,
+            "doc": "DARM",
+            "numero": "408",
+            "data": "2026-10-13",
+            "valor": 1146.45,
+            "historico": "IPTU PERIODO DE 10/04 A 10//11 ALOJAMENTO CAMAÇARI RUA INTERLAGOS, 408, INOCOOP - BELA VISTA CAMAÇARI - BA - BRASIL - CEP 42.809-314\nPAGAMENTO OBRIGATORIO CONFORME CLAUSULA 13 DO CONTRATO DE LOCAÇÃO \nLOCADOR: CLEDINEA DE SOUSA OLIVEIRA, CPF nº 767.291.505-30"
+          },
+          {
+            "id": 27385,
+            "doc": "CCS",
+            "numero": "995547830",
+            "data": "2026-10-16",
+            "valor": 426.91,
+            "historico": "CONTA DE CONSUMO ALOJAMENTO MONTADORES RUA INTERLAGOS, 408, INOCOOP - BELA VISTA CAMAÇARI - BA - BRASIL - CEP 42.809-314 DO PERIODO DE 21/08 A 24/09 "
+          },
+          {
+            "id": 27311,
+            "doc": "CCS",
+            "numero": "26188",
+            "data": "2026-10-15",
+            "valor": 99.99,
+            "historico": "REFERENTE A INTERNET DO ALOJAMENTO TST DIOGINES - 20/09/2026 a 20/10/2026"
+          },
+          {
+            "id": 27166,
+            "doc": "ALG",
+            "numero": "0710300",
+            "data": "2026-10-07",
+            "valor": 300,
+            "historico": "REFERENTE A DIFERENÇA DE 300,00 DO ALUGUEL ALOJAMENTO CAMAÇARI -MÊS OUT ( 01/10)  - CORRESPONDENTE AO TITULO 21064\nRUA INTERLAGOS N. 403 INOCCOP CAMAÇARI - BA \nPROPRIETARIO JOSE ALMEIDA DOS SANTOS CPF 153.050.905-04"
+          },
+          {
+            "id": 27104,
+            "doc": "CCS",
+            "numero": "996106669",
+            "data": "2026-09-24",
+            "valor": 188.99,
+            "historico": "REFERENTE A CONTA DE CONSUMO DE ENERGIA ALOJAMENTO ENCARREGADOS -CAMAÇARI - AV INDUSTRIAL URBANA 918-APTO 302 RESIDELCIAL VERDE VILLE BL 19 - SENHA 82552 - PERIODO 09/2026 "
+          }
+        ]
       }
     }
   },
+  "premissaFatoresRol": {
+    "sga": {
+      "classificacao": "SG&A",
+      "fatorPct": 12.5,
+      "comentario": "Receita Operacional Líquida (ROL)"
+    },
+    "moi": {
+      "classificacao": "MOI",
+      "fatorPct": 5,
+      "comentario": "Receita Operacional Líquida (ROL)"
+    }
+  },
+  "tabelaOficialModHH": [
+    {
+      "codigo": "MOD-ESP",
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargo": "Especialista",
+      "valorHH": 90,
+      "equivalente220h": 19800,
+      "ativoNaObra": false
+    },
+    {
+      "codigo": "G1",
+      "key": "G1_ENCARREGADO",
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargo": "Encarregado",
+      "valorHH": 75,
+      "equivalente220h": 16500,
+      "ativoNaObra": true
+    },
+    {
+      "codigo": "G2",
+      "key": "G2_LIDER",
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargo": "Líder",
+      "valorHH": 45,
+      "equivalente220h": 9900,
+      "ativoNaObra": true
+    },
+    {
+      "codigo": "G3",
+      "key": "G3_MONTADOR",
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargo": "Montador",
+      "valorHH": 35,
+      "equivalente220h": 7700,
+      "ativoNaObra": true
+    },
+    {
+      "codigo": "G4",
+      "key": "G4_AJUDANTE",
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargo": "Ajudante",
+      "valorHH": 25,
+      "equivalente220h": 5500,
+      "ativoNaObra": true
+    },
+    {
+      "codigo": "MOD-ANA",
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargo": "Analista",
+      "valorHH": 40,
+      "equivalente220h": 8800,
+      "ativoNaObra": false
+    },
+    {
+      "codigo": "MOD-PRJ",
+      "classificacao": "MOD",
+      "departamento": "Projetos",
+      "cargo": "Geral",
+      "valorHH": 50,
+      "equivalente220h": 11000,
+      "ativoNaObra": false
+    },
+    {
+      "codigo": "MOD-EXO",
+      "classificacao": "MOD",
+      "departamento": "Excelência Operacional",
+      "cargo": "Geral",
+      "valorHH": 70,
+      "equivalente220h": 15400,
+      "ativoNaObra": false
+    }
+  ],
   "tabelaGruposValores": {
     "G1_ENCARREGADO": {
       "codigo": "G1",
-      "nome": "Grupo 1 — Liderança de Campo (Encarregado)",
-      "custoMensalComEncargos": 12500,
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargoPremissa": "Encarregado",
+      "nome": "MOD • Obras — Encarregado",
+      "custoMensalComEncargos": 16500,
       "horasBaseMes": 220,
-      "valorHH": 56.82
+      "valorHH": 75
     },
     "G2_LIDER": {
       "codigo": "G2",
-      "nome": "Grupo 2 — Supervisão Técnica (Líder de Obras)",
-      "custoMensalComEncargos": 7670,
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargoPremissa": "Líder",
+      "nome": "MOD • Obras — Líder",
+      "custoMensalComEncargos": 9900,
       "horasBaseMes": 220,
-      "valorHH": 34.86
+      "valorHH": 45
     },
     "G3_MONTADOR": {
       "codigo": "G3",
-      "nome": "Grupo 3 — Execução Especializada (Montador / Guindauto)",
-      "custoMensalComEncargos": 7670,
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargoPremissa": "Montador",
+      "nome": "MOD • Obras — Montador / Guindauto",
+      "custoMensalComEncargos": 7700,
       "horasBaseMes": 220,
-      "valorHH": 34.86
+      "valorHH": 35
     },
     "G4_AJUDANTE": {
       "codigo": "G4",
-      "nome": "Grupo 4 — Apoio Operacional (Ajudante)",
-      "custoMensalComEncargos": 5670,
+      "classificacao": "MOD",
+      "departamento": "Obras",
+      "cargoPremissa": "Ajudante",
+      "nome": "MOD • Obras — Ajudante",
+      "custoMensalComEncargos": 5500,
       "horasBaseMes": 220,
-      "valorHH": 25.77
+      "valorHH": 25
     }
   },
   "colaboradores": [
@@ -122,28 +289,31 @@
       "cpf": 70273963198,
       "nome": "JOSE SANCHES TAVARES",
       "cargo": "ENCARREGADO DE OBRAS",
+      "cargoPremissa": "Encarregado",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G1_ENCARREGADO",
       "grupoCodigo": "G1",
-      "grupoNome": "Grupo 1 — Liderança de Campo (Encarregado)",
+      "grupoNome": "MOD • Obras — Encarregado",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 12500,
-      "valorHHBase": 56.82,
-      "diasTrabalhados": 22,
+      "custoMensalBase": 16500,
+      "valorHHBase": 75,
+      "diasTrabalhados": 23,
       "diasFalta": 2,
-      "totalMinutos": 12799,
-      "horasTrabalhadasFmt": "213:19",
-      "horasTrabalhadasDec": 213.32,
-      "horasNormaisFmt": "149:00",
-      "horasNormaisDec": 149,
-      "horasExtrasFmt": "46:05",
-      "horasExtrasDec": 46.08,
+      "totalMinutos": 13349,
+      "horasTrabalhadasFmt": "222:29",
+      "horasTrabalhadasDec": 222.48,
+      "horasNormaisFmt": "157:00",
+      "horasNormaisDec": 157,
+      "horasExtrasFmt": "65:29",
+      "horasExtrasDec": 65.48,
       "horasFaltaFmt": "18:00",
       "horasFaltaDec": 18,
-      "mediaHorasDia": 9.7,
-      "custoApropriadoHoras": 12120.84,
-      "custoApropriadoComHE50": 12393.58,
-      "valorHHEfetivoFixo": 58.6,
+      "mediaHorasDia": 9.67,
+      "custoApropriadoHoras": 16686,
+      "custoApropriadoComHE50": 19141.5,
+      "valorHHEfetivoFixo": 74.16,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -160,8 +330,8 @@
           "minTrabalhados": 608,
           "horasTrabalhadasFmt": "10:08",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 68,
+          "horasExtrasFmt": "01:08",
           "minFaltaAtraso": 0
         },
         {
@@ -179,8 +349,8 @@
           "minTrabalhados": 501,
           "horasTrabalhadasFmt": "08:21",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 21,
+          "horasExtrasFmt": "00:21",
           "minFaltaAtraso": 0
         },
         {
@@ -231,8 +401,8 @@
           "minTrabalhados": 606,
           "horasTrabalhadasFmt": "10:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -250,8 +420,8 @@
           "minTrabalhados": 604,
           "horasTrabalhadasFmt": "10:04",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 64,
+          "horasExtrasFmt": "01:04",
           "minFaltaAtraso": 0
         },
         {
@@ -269,8 +439,8 @@
           "minTrabalhados": 609,
           "horasTrabalhadasFmt": "10:09",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
           "minFaltaAtraso": 0
         },
         {
@@ -288,8 +458,8 @@
           "minTrabalhados": 605,
           "horasTrabalhadasFmt": "10:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 65,
+          "horasExtrasFmt": "01:05",
           "minFaltaAtraso": 0
         },
         {
@@ -307,8 +477,8 @@
           "minTrabalhados": 556,
           "horasTrabalhadasFmt": "09:16",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 76,
+          "horasExtrasFmt": "01:16",
           "minFaltaAtraso": 0
         },
         {
@@ -373,8 +543,8 @@
           "minTrabalhados": 607,
           "horasTrabalhadasFmt": "10:07",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 67,
+          "horasExtrasFmt": "01:07",
           "minFaltaAtraso": 0
         },
         {
@@ -392,8 +562,8 @@
           "minTrabalhados": 610,
           "horasTrabalhadasFmt": "10:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -411,8 +581,8 @@
           "minTrabalhados": 617,
           "horasTrabalhadasFmt": "10:17",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 77,
+          "horasExtrasFmt": "01:17",
           "minFaltaAtraso": 0
         },
         {
@@ -430,8 +600,8 @@
           "minTrabalhados": 549,
           "horasTrabalhadasFmt": "09:09",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
           "minFaltaAtraso": 0
         },
         {
@@ -480,8 +650,8 @@
           "minTrabalhados": 606,
           "horasTrabalhadasFmt": "10:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -535,8 +705,8 @@
           "minTrabalhados": 604,
           "horasTrabalhadasFmt": "10:04",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 64,
+          "horasExtrasFmt": "01:04",
           "minFaltaAtraso": 0
         },
         {
@@ -554,8 +724,8 @@
           "minTrabalhados": 546,
           "horasTrabalhadasFmt": "09:06",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -604,8 +774,8 @@
           "minTrabalhados": 600,
           "horasTrabalhadasFmt": "10:00",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 60,
+          "horasExtrasFmt": "01:00",
           "minFaltaAtraso": 0
         },
         {
@@ -623,8 +793,8 @@
           "minTrabalhados": 601,
           "horasTrabalhadasFmt": "10:01",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 61,
+          "horasExtrasFmt": "01:01",
           "minFaltaAtraso": 0
         },
         {
@@ -642,8 +812,8 @@
           "minTrabalhados": 605,
           "horasTrabalhadasFmt": "10:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 65,
+          "horasExtrasFmt": "01:05",
           "minFaltaAtraso": 0
         },
         {
@@ -653,7 +823,7 @@
           "feriado": false,
           "faltaDiaInteiro": true,
           "batidas": [
-            "07:30",
+            "18:01",
             "12:00",
             "13:00",
             "17:30"
@@ -664,6 +834,39 @@
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
           "minFaltaAtraso": 540
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:53",
+            "12:00",
+            "13:00",
+            "17:03"
+          ],
+          "minTrabalhados": 550,
+          "horasTrabalhadasFmt": "09:10",
+          "minNormais": 480,
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
+          "minTrabalhados": 0,
+          "horasTrabalhadasFmt": "00:00",
+          "minNormais": 0,
+          "minExtras": 0,
+          "horasExtrasFmt": "00:00",
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -674,28 +877,31 @@
       "cpf": 5635761380,
       "nome": "TIAGO ALVES DE SOUSA",
       "cargo": "LIDER DE OBRAS",
+      "cargoPremissa": "Líder",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G2_LIDER",
       "grupoCodigo": "G2",
-      "grupoNome": "Grupo 2 — Supervisão Técnica (Líder de Obras)",
+      "grupoNome": "MOD • Obras — Líder",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 21,
-      "diasFalta": 3,
-      "totalMinutos": 12185,
-      "horasTrabalhadasFmt": "203:05",
-      "horasTrabalhadasDec": 203.08,
-      "horasNormaisFmt": "140:00",
-      "horasNormaisDec": 140,
-      "horasExtrasFmt": "45:59",
-      "horasExtrasDec": 45.98,
-      "horasFaltaFmt": "27:00",
-      "horasFaltaDec": 27,
+      "custoMensalBase": 9900,
+      "valorHHBase": 45,
+      "diasTrabalhados": 23,
+      "diasFalta": 2,
+      "totalMinutos": 13339,
+      "horasTrabalhadasFmt": "222:19",
+      "horasTrabalhadasDec": 222.32,
+      "horasNormaisFmt": "157:00",
+      "horasNormaisDec": 157,
+      "horasExtrasFmt": "65:19",
+      "horasExtrasDec": 65.32,
+      "horasFaltaFmt": "18:00",
+      "horasFaltaDec": 18,
       "mediaHorasDia": 9.67,
-      "custoApropriadoHoras": 7079.37,
-      "custoApropriadoComHE50": 7284.69,
-      "valorHHEfetivoFixo": 37.77,
+      "custoApropriadoHoras": 10004.4,
+      "custoApropriadoComHE50": 11474.1,
+      "valorHHEfetivoFixo": 44.53,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -712,8 +918,8 @@
           "minTrabalhados": 607,
           "horasTrabalhadasFmt": "10:07",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 67,
+          "horasExtrasFmt": "01:07",
           "minFaltaAtraso": 0
         },
         {
@@ -731,8 +937,8 @@
           "minTrabalhados": 510,
           "horasTrabalhadasFmt": "08:30",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 30,
+          "horasExtrasFmt": "00:30",
           "minFaltaAtraso": 0
         },
         {
@@ -783,8 +989,8 @@
           "minTrabalhados": 601,
           "horasTrabalhadasFmt": "10:01",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 61,
+          "horasExtrasFmt": "01:01",
           "minFaltaAtraso": 0
         },
         {
@@ -802,8 +1008,8 @@
           "minTrabalhados": 607,
           "horasTrabalhadasFmt": "10:07",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 67,
+          "horasExtrasFmt": "01:07",
           "minFaltaAtraso": 0
         },
         {
@@ -821,8 +1027,8 @@
           "minTrabalhados": 605,
           "horasTrabalhadasFmt": "10:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 65,
+          "horasExtrasFmt": "01:05",
           "minFaltaAtraso": 0
         },
         {
@@ -840,8 +1046,8 @@
           "minTrabalhados": 606,
           "horasTrabalhadasFmt": "10:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -859,8 +1065,8 @@
           "minTrabalhados": 554,
           "horasTrabalhadasFmt": "09:14",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 74,
+          "horasExtrasFmt": "01:14",
           "minFaltaAtraso": 0
         },
         {
@@ -925,8 +1131,8 @@
           "minTrabalhados": 610,
           "horasTrabalhadasFmt": "10:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -944,8 +1150,8 @@
           "minTrabalhados": 610,
           "horasTrabalhadasFmt": "10:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -963,8 +1169,8 @@
           "minTrabalhados": 615,
           "horasTrabalhadasFmt": "10:15",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 75,
+          "horasExtrasFmt": "01:15",
           "minFaltaAtraso": 0
         },
         {
@@ -982,8 +1188,8 @@
           "minTrabalhados": 556,
           "horasTrabalhadasFmt": "09:16",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 76,
+          "horasExtrasFmt": "01:16",
           "minFaltaAtraso": 0
         },
         {
@@ -1068,8 +1274,8 @@
           "minTrabalhados": 606,
           "horasTrabalhadasFmt": "10:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -1087,8 +1293,8 @@
           "minTrabalhados": 605,
           "horasTrabalhadasFmt": "10:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 65,
+          "horasExtrasFmt": "01:05",
           "minFaltaAtraso": 0
         },
         {
@@ -1106,8 +1312,8 @@
           "minTrabalhados": 548,
           "horasTrabalhadasFmt": "09:08",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 68,
+          "horasExtrasFmt": "01:08",
           "minFaltaAtraso": 0
         },
         {
@@ -1175,8 +1381,8 @@
           "minTrabalhados": 589,
           "horasTrabalhadasFmt": "09:49",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 49,
+          "horasExtrasFmt": "00:49",
           "minFaltaAtraso": 0
         },
         {
@@ -1194,8 +1400,8 @@
           "minTrabalhados": 597,
           "horasTrabalhadasFmt": "09:57",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 57,
+          "horasExtrasFmt": "00:57",
           "minFaltaAtraso": 0
         },
         {
@@ -1203,19 +1409,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:50",
             "12:00",
             "13:00",
-            "17:30"
+            "17:56"
           ],
+          "minTrabalhados": 606,
+          "horasTrabalhadasFmt": "10:06",
+          "minNormais": 540,
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:55",
+            "12:00",
+            "13:00",
+            "17:03"
+          ],
+          "minTrabalhados": 548,
+          "horasTrabalhadasFmt": "09:08",
+          "minNormais": 480,
+          "minExtras": 68,
+          "horasExtrasFmt": "01:08",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -1226,28 +1465,31 @@
       "cpf": 7068481523,
       "nome": "JONATA OLIVEIRA MELO",
       "cargo": "LIDER DE OBRAS",
+      "cargoPremissa": "Líder",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G2_LIDER",
       "grupoCodigo": "G2",
-      "grupoNome": "Grupo 2 — Supervisão Técnica (Líder de Obras)",
+      "grupoNome": "MOD • Obras — Líder",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 23,
-      "diasFalta": 1,
-      "totalMinutos": 12776,
-      "horasTrabalhadasFmt": "212:56",
-      "horasTrabalhadasDec": 212.93,
-      "horasNormaisFmt": "154:08",
-      "horasNormaisDec": 154.13,
-      "horasExtrasFmt": "45:53",
-      "horasExtrasDec": 45.88,
-      "horasFaltaFmt": "12:52",
-      "horasFaltaDec": 12.87,
-      "mediaHorasDia": 9.26,
-      "custoApropriadoHoras": 7422.74,
-      "custoApropriadoComHE50": 7772.04,
-      "valorHHEfetivoFixo": 36.02,
+      "custoMensalBase": 9900,
+      "valorHHBase": 45,
+      "diasTrabalhados": 25,
+      "diasFalta": 0,
+      "totalMinutos": 13938,
+      "horasTrabalhadasFmt": "232:18",
+      "horasTrabalhadasDec": 232.3,
+      "horasNormaisFmt": "171:07",
+      "horasNormaisDec": 171.12,
+      "horasExtrasFmt": "61:11",
+      "horasExtrasDec": 61.18,
+      "horasFaltaFmt": "03:52",
+      "horasFaltaDec": 3.87,
+      "mediaHorasDia": 9.29,
+      "custoApropriadoHoras": 10453.5,
+      "custoApropriadoComHE50": 11830.05,
+      "valorHHEfetivoFixo": 42.62,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -1264,8 +1506,8 @@
           "minTrabalhados": 598,
           "horasTrabalhadasFmt": "09:58",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 58,
+          "horasExtrasFmt": "00:58",
           "minFaltaAtraso": 0
         },
         {
@@ -1283,8 +1525,8 @@
           "minTrabalhados": 492,
           "horasTrabalhadasFmt": "08:12",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 12,
+          "horasExtrasFmt": "00:12",
           "minFaltaAtraso": 0
         },
         {
@@ -1334,7 +1576,7 @@
           ],
           "minTrabalhados": 539,
           "horasTrabalhadasFmt": "08:59",
-          "minNormais": 540,
+          "minNormais": 539,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
           "minFaltaAtraso": 0
@@ -1354,8 +1596,8 @@
           "minTrabalhados": 541,
           "horasTrabalhadasFmt": "09:01",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 1,
+          "horasExtrasFmt": "00:01",
           "minFaltaAtraso": 0
         },
         {
@@ -1373,8 +1615,8 @@
           "minTrabalhados": 569,
           "horasTrabalhadasFmt": "09:29",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 29,
+          "horasExtrasFmt": "00:29",
           "minFaltaAtraso": 0
         },
         {
@@ -1392,8 +1634,8 @@
           "minTrabalhados": 568,
           "horasTrabalhadasFmt": "09:28",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 28,
+          "horasExtrasFmt": "00:28",
           "minFaltaAtraso": 0
         },
         {
@@ -1411,8 +1653,8 @@
           "minTrabalhados": 549,
           "horasTrabalhadasFmt": "09:09",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
           "minFaltaAtraso": 0
         },
         {
@@ -1477,8 +1719,8 @@
           "minTrabalhados": 602,
           "horasTrabalhadasFmt": "10:02",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 62,
+          "horasExtrasFmt": "01:02",
           "minFaltaAtraso": 0
         },
         {
@@ -1496,8 +1738,8 @@
           "minTrabalhados": 610,
           "horasTrabalhadasFmt": "10:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -1515,8 +1757,8 @@
           "minTrabalhados": 620,
           "horasTrabalhadasFmt": "10:20",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 80,
+          "horasExtrasFmt": "01:20",
           "minFaltaAtraso": 0
         },
         {
@@ -1534,8 +1776,8 @@
           "minTrabalhados": 558,
           "horasTrabalhadasFmt": "09:18",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 78,
+          "horasExtrasFmt": "01:18",
           "minFaltaAtraso": 0
         },
         {
@@ -1584,8 +1826,8 @@
           "minTrabalhados": 597,
           "horasTrabalhadasFmt": "09:57",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 57,
+          "horasExtrasFmt": "00:57",
           "minFaltaAtraso": 0
         },
         {
@@ -1620,8 +1862,8 @@
           "minTrabalhados": 597,
           "horasTrabalhadasFmt": "09:57",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 57,
+          "horasExtrasFmt": "00:57",
           "minFaltaAtraso": 0
         },
         {
@@ -1639,8 +1881,8 @@
           "minTrabalhados": 599,
           "horasTrabalhadasFmt": "09:59",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 59,
+          "horasExtrasFmt": "00:59",
           "minFaltaAtraso": 0
         },
         {
@@ -1708,8 +1950,8 @@
           "minTrabalhados": 586,
           "horasTrabalhadasFmt": "09:46",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 46,
+          "horasExtrasFmt": "00:46",
           "minFaltaAtraso": 0
         },
         {
@@ -1727,8 +1969,8 @@
           "minTrabalhados": 567,
           "horasTrabalhadasFmt": "09:27",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 27,
+          "horasExtrasFmt": "00:27",
           "minFaltaAtraso": 0
         },
         {
@@ -1746,8 +1988,8 @@
           "minTrabalhados": 583,
           "horasTrabalhadasFmt": "09:43",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 43,
+          "horasExtrasFmt": "00:43",
           "minFaltaAtraso": 0
         },
         {
@@ -1755,19 +1997,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "07:00",
             "12:00",
             "13:00",
-            "17:30"
+            "17:59"
           ],
+          "minTrabalhados": 599,
+          "horasTrabalhadasFmt": "09:59",
+          "minNormais": 540,
+          "minExtras": 59,
+          "horasExtrasFmt": "00:59",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:41",
+            "12:00",
+            "13:00",
+            "17:04"
+          ],
+          "minTrabalhados": 563,
+          "horasTrabalhadasFmt": "09:23",
+          "minNormais": 480,
+          "minExtras": 83,
+          "horasExtrasFmt": "01:23",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -1778,28 +2053,31 @@
       "cpf": 39942688854,
       "nome": "ANTONIO CARLOS SOUSA OLIVEIRA",
       "cargo": "MONTADOR",
+      "cargoPremissa": "Montador",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G3_MONTADOR",
       "grupoCodigo": "G3",
-      "grupoNome": "Grupo 3 — Execução Especializada (Montador / Guindauto)",
+      "grupoNome": "MOD • Obras — Montador / Guindauto",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 22,
-      "diasFalta": 1,
-      "totalMinutos": 12711,
-      "horasTrabalhadasFmt": "211:51",
-      "horasTrabalhadasDec": 211.85,
-      "horasNormaisFmt": "158:00",
-      "horasNormaisDec": 158,
-      "horasExtrasFmt": "53:51",
-      "horasExtrasDec": 53.85,
-      "horasFaltaFmt": "09:00",
-      "horasFaltaDec": 9,
+      "custoMensalBase": 7700,
+      "valorHHBase": 35,
+      "diasTrabalhados": 24,
+      "diasFalta": 0,
+      "totalMinutos": 13871,
+      "horasTrabalhadasFmt": "231:11",
+      "horasTrabalhadasDec": 231.18,
+      "horasNormaisFmt": "175:00",
+      "horasNormaisDec": 175,
+      "horasExtrasFmt": "56:11",
+      "horasExtrasDec": 56.18,
+      "horasFaltaFmt": "00:00",
+      "horasFaltaDec": 0,
       "mediaHorasDia": 9.63,
-      "custoApropriadoHoras": 7385.09,
-      "custoApropriadoComHE50": 8323.7,
-      "valorHHEfetivoFixo": 36.2,
+      "custoApropriadoHoras": 8091.3,
+      "custoApropriadoComHE50": 9074.45,
+      "valorHHEfetivoFixo": 33.31,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -2309,19 +2587,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:52",
             "12:00",
             "13:00",
-            "17:30"
+            "18:00"
           ],
+          "minTrabalhados": 608,
+          "horasTrabalhadasFmt": "10:08",
+          "minNormais": 540,
+          "minExtras": 68,
+          "horasExtrasFmt": "01:08",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:50",
+            "12:00",
+            "13:00",
+            "17:02"
+          ],
+          "minTrabalhados": 552,
+          "horasTrabalhadasFmt": "09:12",
+          "minNormais": 480,
+          "minExtras": 72,
+          "horasExtrasFmt": "01:12",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -2332,28 +2643,31 @@
       "cpf": 5277815333,
       "nome": "FABIO FERREIRA DE OLIVEIRA",
       "cargo": "MONTADOR",
+      "cargoPremissa": "Montador",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G3_MONTADOR",
       "grupoCodigo": "G3",
-      "grupoNome": "Grupo 3 — Execução Especializada (Montador / Guindauto)",
+      "grupoNome": "MOD • Obras — Montador / Guindauto",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 23,
-      "diasFalta": 1,
-      "totalMinutos": 13411,
-      "horasTrabalhadasFmt": "223:31",
-      "horasTrabalhadasDec": 223.52,
-      "horasNormaisFmt": "158:00",
-      "horasNormaisDec": 158,
-      "horasExtrasFmt": "65:31",
-      "horasExtrasDec": 65.52,
-      "horasFaltaFmt": "09:00",
-      "horasFaltaDec": 9,
+      "custoMensalBase": 7700,
+      "valorHHBase": 35,
+      "diasTrabalhados": 25,
+      "diasFalta": 0,
+      "totalMinutos": 14575,
+      "horasTrabalhadasFmt": "242:55",
+      "horasTrabalhadasDec": 242.92,
+      "horasNormaisFmt": "175:00",
+      "horasNormaisDec": 175,
+      "horasExtrasFmt": "67:55",
+      "horasExtrasDec": 67.92,
+      "horasFaltaFmt": "00:00",
+      "horasFaltaDec": 0,
       "mediaHorasDia": 9.72,
-      "custoApropriadoHoras": 7791.91,
-      "custoApropriadoComHE50": 8933.92,
-      "valorHHEfetivoFixo": 34.31,
+      "custoApropriadoHoras": 8502.2,
+      "custoApropriadoComHE50": 9690.8,
+      "valorHHEfetivoFixo": 31.7,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -2861,19 +3175,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:51",
             "12:00",
             "13:00",
-            "17:30"
+            "18:00"
           ],
+          "minTrabalhados": 609,
+          "horasTrabalhadasFmt": "10:09",
+          "minNormais": 540,
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:49",
+            "12:00",
+            "13:00",
+            "17:04"
+          ],
+          "minTrabalhados": 555,
+          "horasTrabalhadasFmt": "09:15",
+          "minNormais": 480,
+          "minExtras": 75,
+          "horasExtrasFmt": "01:15",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -2884,28 +3231,31 @@
       "cpf": 9400351380,
       "nome": "CARLOS HENRIQUE DE SOUZA SILVA",
       "cargo": "AJUDANTE",
+      "cargoPremissa": "Ajudante",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G4_AJUDANTE",
       "grupoCodigo": "G4",
-      "grupoNome": "Grupo 4 — Apoio Operacional (Ajudante)",
+      "grupoNome": "MOD • Obras — Ajudante",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 5670,
-      "valorHHBase": 25.77,
-      "diasTrabalhados": 23,
-      "diasFalta": 1,
-      "totalMinutos": 13312,
-      "horasTrabalhadasFmt": "221:52",
-      "horasTrabalhadasDec": 221.87,
-      "horasNormaisFmt": "167:00",
-      "horasNormaisDec": 167,
-      "horasExtrasFmt": "54:52",
-      "horasExtrasDec": 54.87,
-      "horasFaltaFmt": "09:00",
-      "horasFaltaDec": 9,
+      "custoMensalBase": 5500,
+      "valorHHBase": 25,
+      "diasTrabalhados": 25,
+      "diasFalta": 0,
+      "totalMinutos": 14474,
+      "horasTrabalhadasFmt": "241:14",
+      "horasTrabalhadasDec": 241.23,
+      "horasNormaisFmt": "184:00",
+      "horasNormaisDec": 184,
+      "horasExtrasFmt": "57:14",
+      "horasExtrasDec": 57.23,
+      "horasFaltaFmt": "00:00",
+      "horasFaltaDec": 0,
       "mediaHorasDia": 9.65,
-      "custoApropriadoHoras": 5717.59,
-      "custoApropriadoComHE50": 6424.59,
-      "valorHHEfetivoFixo": 25.56,
+      "custoApropriadoHoras": 6030.75,
+      "custoApropriadoComHE50": 6746.13,
+      "valorHHEfetivoFixo": 22.8,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -3415,19 +3765,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:49",
             "12:00",
             "13:00",
-            "17:30"
+            "17:58"
           ],
+          "minTrabalhados": 609,
+          "horasTrabalhadasFmt": "10:09",
+          "minNormais": 540,
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:50",
+            "12:00",
+            "13:00",
+            "17:03"
+          ],
+          "minTrabalhados": 553,
+          "horasTrabalhadasFmt": "09:13",
+          "minNormais": 480,
+          "minExtras": 73,
+          "horasExtrasFmt": "01:13",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -3438,28 +3821,31 @@
       "cpf": 2053285559,
       "nome": "JOSEILTON NOGUEIRA DE SOUZA",
       "cargo": "MOTORISTA OP. DE GUINDAUTO",
+      "cargoPremissa": "Montador",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G3_MONTADOR",
       "grupoCodigo": "G3",
-      "grupoNome": "Grupo 3 — Execução Especializada (Montador / Guindauto)",
+      "grupoNome": "MOD • Obras — Montador / Guindauto",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 20,
-      "diasFalta": 1,
-      "totalMinutos": 10670,
-      "horasTrabalhadasFmt": "177:50",
-      "horasTrabalhadasDec": 177.83,
-      "horasNormaisFmt": "166:19",
-      "horasNormaisDec": 166.32,
-      "horasExtrasFmt": "08:50",
-      "horasExtrasDec": 8.83,
-      "horasFaltaFmt": "09:27",
-      "horasFaltaDec": 9.45,
-      "mediaHorasDia": 8.89,
-      "custoApropriadoHoras": 6199.15,
-      "custoApropriadoComHE50": 6259.64,
-      "valorHHEfetivoFixo": 43.13,
+      "custoMensalBase": 7700,
+      "valorHHBase": 35,
+      "diasTrabalhados": 22,
+      "diasFalta": 0,
+      "totalMinutos": 11671,
+      "horasTrabalhadasFmt": "194:31",
+      "horasTrabalhadasDec": 194.52,
+      "horasNormaisFmt": "182:53",
+      "horasNormaisDec": 182.88,
+      "horasExtrasFmt": "11:38",
+      "horasExtrasDec": 11.64,
+      "horasFaltaFmt": "00:47",
+      "horasFaltaDec": 0.78,
+      "mediaHorasDia": 8.84,
+      "custoApropriadoHoras": 6808.2,
+      "custoApropriadoComHE50": 7011.9,
+      "valorHHEfetivoFixo": 39.58,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -3476,8 +3862,8 @@
           "minTrabalhados": 568,
           "horasTrabalhadasFmt": "09:28",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 28,
+          "horasExtrasFmt": "00:28",
           "minFaltaAtraso": 0
         },
         {
@@ -3495,8 +3881,8 @@
           "minTrabalhados": 488,
           "horasTrabalhadasFmt": "08:08",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 8,
+          "horasExtrasFmt": "00:08",
           "minFaltaAtraso": 0
         },
         {
@@ -3542,8 +3928,8 @@
           "minTrabalhados": 545,
           "horasTrabalhadasFmt": "09:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 5,
+          "horasExtrasFmt": "00:05",
           "minFaltaAtraso": 0
         },
         {
@@ -3580,8 +3966,8 @@
           "minTrabalhados": 553,
           "horasTrabalhadasFmt": "09:13",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 13,
+          "horasExtrasFmt": "00:13",
           "minFaltaAtraso": 0
         },
         {
@@ -3599,8 +3985,8 @@
           "minTrabalhados": 542,
           "horasTrabalhadasFmt": "09:02",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 2,
+          "horasExtrasFmt": "00:02",
           "minFaltaAtraso": 0
         },
         {
@@ -3618,8 +4004,8 @@
           "minTrabalhados": 481,
           "horasTrabalhadasFmt": "08:01",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 1,
+          "horasExtrasFmt": "00:01",
           "minFaltaAtraso": 0
         },
         {
@@ -3679,8 +4065,8 @@
           "minTrabalhados": 543,
           "horasTrabalhadasFmt": "09:03",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 3,
+          "horasExtrasFmt": "00:03",
           "minFaltaAtraso": 0
         },
         {
@@ -3698,8 +4084,8 @@
           "minTrabalhados": 551,
           "horasTrabalhadasFmt": "09:11",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 11,
+          "horasExtrasFmt": "00:11",
           "minFaltaAtraso": 0
         },
         {
@@ -3717,8 +4103,8 @@
           "minTrabalhados": 545,
           "horasTrabalhadasFmt": "09:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 5,
+          "horasExtrasFmt": "00:05",
           "minFaltaAtraso": 0
         },
         {
@@ -3782,7 +4168,7 @@
           ],
           "minTrabalhados": 539,
           "horasTrabalhadasFmt": "08:59",
-          "minNormais": 540,
+          "minNormais": 539,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
           "minFaltaAtraso": 0
@@ -3821,8 +4207,8 @@
           "minTrabalhados": 546,
           "horasTrabalhadasFmt": "09:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 6,
+          "horasExtrasFmt": "00:06",
           "minFaltaAtraso": 0
         },
         {
@@ -3840,8 +4226,8 @@
           "minTrabalhados": 580,
           "horasTrabalhadasFmt": "09:40",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 40,
+          "horasExtrasFmt": "00:40",
           "minFaltaAtraso": 0
         },
         {
@@ -3859,8 +4245,8 @@
           "minTrabalhados": 496,
           "horasTrabalhadasFmt": "08:16",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 16,
+          "horasExtrasFmt": "00:16",
           "minFaltaAtraso": 0
         },
         {
@@ -3909,8 +4295,8 @@
           "minTrabalhados": 569,
           "horasTrabalhadasFmt": "09:29",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 29,
+          "horasExtrasFmt": "00:29",
           "minFaltaAtraso": 0
         },
         {
@@ -3927,7 +4313,7 @@
           ],
           "minTrabalhados": 535,
           "horasTrabalhadasFmt": "08:55",
-          "minNormais": 540,
+          "minNormais": 535,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
           "minFaltaAtraso": 0
@@ -3956,19 +4342,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:53",
             "12:00",
             "13:00",
-            "17:30"
+            "16:54"
           ],
+          "minTrabalhados": 541,
+          "horasTrabalhadasFmt": "09:01",
+          "minNormais": 540,
+          "minExtras": 1,
+          "horasExtrasFmt": "00:01",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "07:13",
+            "12:00",
+            "13:00",
+            "15:53"
+          ],
+          "minTrabalhados": 460,
+          "horasTrabalhadasFmt": "07:40",
+          "minNormais": 460,
+          "minExtras": 0,
+          "horasExtrasFmt": "00:00",
+          "minFaltaAtraso": 20
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -3979,28 +4398,31 @@
       "cpf": 6228858556,
       "nome": "JANDERSON DA SILVA E SILVA",
       "cargo": "AJUDANTE",
+      "cargoPremissa": "Ajudante",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G4_AJUDANTE",
       "grupoCodigo": "G4",
-      "grupoNome": "Grupo 4 — Apoio Operacional (Ajudante)",
+      "grupoNome": "MOD • Obras — Ajudante",
       "equipe": "Equipe José Tavares (Piloto)",
       "isPiloto": true,
-      "custoMensalBase": 5670,
-      "valorHHBase": 25.77,
-      "diasTrabalhados": 22,
-      "diasFalta": 2,
-      "totalMinutos": 11673,
-      "horasTrabalhadasFmt": "194:33",
-      "horasTrabalhadasDec": 194.55,
-      "horasNormaisFmt": "158:00",
-      "horasNormaisDec": 158,
-      "horasExtrasFmt": "35:17",
-      "horasExtrasDec": 35.28,
-      "horasFaltaFmt": "18:00",
-      "horasFaltaDec": 18,
-      "mediaHorasDia": 8.84,
-      "custoApropriadoHoras": 5013.55,
-      "custoApropriadoComHE50": 5435.41,
-      "valorHHEfetivoFixo": 29.14,
+      "custoMensalBase": 5500,
+      "valorHHBase": 25,
+      "diasTrabalhados": 24,
+      "diasFalta": 1,
+      "totalMinutos": 12703,
+      "horasTrabalhadasFmt": "211:43",
+      "horasTrabalhadasDec": 211.72,
+      "horasNormaisFmt": "175:00",
+      "horasNormaisDec": 175,
+      "horasExtrasFmt": "36:43",
+      "horasExtrasDec": 36.72,
+      "horasFaltaFmt": "09:00",
+      "horasFaltaDec": 9,
+      "mediaHorasDia": 8.82,
+      "custoApropriadoHoras": 5293,
+      "custoApropriadoComHE50": 5752,
+      "valorHHEfetivoFixo": 25.98,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -4088,8 +4510,8 @@
           "minTrabalhados": 549,
           "horasTrabalhadasFmt": "09:09",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 9,
+          "horasExtrasFmt": "00:09",
           "minFaltaAtraso": 0
         },
         {
@@ -4107,8 +4529,8 @@
           "minTrabalhados": 550,
           "horasTrabalhadasFmt": "09:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 10,
+          "horasExtrasFmt": "00:10",
           "minFaltaAtraso": 0
         },
         {
@@ -4145,8 +4567,8 @@
           "minTrabalhados": 545,
           "horasTrabalhadasFmt": "09:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 5,
+          "horasExtrasFmt": "00:05",
           "minFaltaAtraso": 0
         },
         {
@@ -4164,8 +4586,8 @@
           "minTrabalhados": 490,
           "horasTrabalhadasFmt": "08:10",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 10,
+          "horasExtrasFmt": "00:10",
           "minFaltaAtraso": 0
         },
         {
@@ -4230,8 +4652,8 @@
           "minTrabalhados": 545,
           "horasTrabalhadasFmt": "09:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 5,
+          "horasExtrasFmt": "00:05",
           "minFaltaAtraso": 0
         },
         {
@@ -4249,8 +4671,8 @@
           "minTrabalhados": 546,
           "horasTrabalhadasFmt": "09:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 6,
+          "horasExtrasFmt": "00:06",
           "minFaltaAtraso": 0
         },
         {
@@ -4268,8 +4690,8 @@
           "minTrabalhados": 547,
           "horasTrabalhadasFmt": "09:07",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 7,
+          "horasExtrasFmt": "00:07",
           "minFaltaAtraso": 0
         },
         {
@@ -4287,8 +4709,8 @@
           "minTrabalhados": 490,
           "horasTrabalhadasFmt": "08:10",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 10,
+          "horasExtrasFmt": "00:10",
           "minFaltaAtraso": 0
         },
         {
@@ -4337,8 +4759,8 @@
           "minTrabalhados": 543,
           "horasTrabalhadasFmt": "09:03",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 3,
+          "horasExtrasFmt": "00:03",
           "minFaltaAtraso": 0
         },
         {
@@ -4356,8 +4778,8 @@
           "minTrabalhados": 541,
           "horasTrabalhadasFmt": "09:01",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 1,
+          "horasExtrasFmt": "00:01",
           "minFaltaAtraso": 0
         },
         {
@@ -4375,8 +4797,8 @@
           "minTrabalhados": 546,
           "horasTrabalhadasFmt": "09:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 6,
+          "horasExtrasFmt": "00:06",
           "minFaltaAtraso": 0
         },
         {
@@ -4482,8 +4904,8 @@
           "minTrabalhados": 544,
           "horasTrabalhadasFmt": "09:04",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 4,
+          "horasExtrasFmt": "00:04",
           "minFaltaAtraso": 0
         },
         {
@@ -4510,19 +4932,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:49",
             "12:00",
             "13:00",
-            "17:30"
+            "16:55"
           ],
+          "minTrabalhados": 546,
+          "horasTrabalhadasFmt": "09:06",
+          "minNormais": 540,
+          "minExtras": 6,
+          "horasExtrasFmt": "00:06",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:49",
+            "12:00",
+            "13:00",
+            "15:53"
+          ],
+          "minTrabalhados": 484,
+          "horasTrabalhadasFmt": "08:04",
+          "minNormais": 480,
+          "minExtras": 4,
+          "horasExtrasFmt": "00:04",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -4533,28 +4988,31 @@
       "cpf": 23637452804,
       "nome": "HELDER FILIPE BORGES OLIVEIRA",
       "cargo": "ENCARREGADO DE OBRAS",
+      "cargoPremissa": "Encarregado",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G1_ENCARREGADO",
       "grupoCodigo": "G1",
-      "grupoNome": "Grupo 1 — Liderança de Campo (Encarregado)",
+      "grupoNome": "MOD • Obras — Encarregado",
       "equipe": "Equipe Helder Borges (REP #6)",
       "isPiloto": false,
-      "custoMensalBase": 12500,
-      "valorHHBase": 56.82,
-      "diasTrabalhados": 22,
-      "diasFalta": 2,
-      "totalMinutos": 12778,
-      "horasTrabalhadasFmt": "212:58",
-      "horasTrabalhadasDec": 212.97,
-      "horasNormaisFmt": "158:00",
-      "horasNormaisDec": 158,
-      "horasExtrasFmt": "35:12",
-      "horasExtrasDec": 35.2,
-      "horasFaltaFmt": "18:00",
-      "horasFaltaDec": 18,
+      "custoMensalBase": 16500,
+      "valorHHBase": 75,
+      "diasTrabalhados": 24,
+      "diasFalta": 1,
+      "totalMinutos": 13939,
+      "horasTrabalhadasFmt": "232:19",
+      "horasTrabalhadasDec": 232.32,
+      "horasNormaisFmt": "175:00",
+      "horasNormaisDec": 175,
+      "horasExtrasFmt": "57:19",
+      "horasExtrasDec": 57.32,
+      "horasFaltaFmt": "09:00",
+      "horasFaltaDec": 9,
       "mediaHorasDia": 9.68,
-      "custoApropriadoHoras": 12100.96,
-      "custoApropriadoComHE50": 11977.66,
-      "valorHHEfetivoFixo": 58.69,
+      "custoApropriadoHoras": 17424,
+      "custoApropriadoComHE50": 19573.5,
+      "valorHHEfetivoFixo": 71.02,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -4571,8 +5029,8 @@
           "minTrabalhados": 610,
           "horasTrabalhadasFmt": "10:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -4590,8 +5048,8 @@
           "minTrabalhados": 511,
           "horasTrabalhadasFmt": "08:31",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 31,
+          "horasExtrasFmt": "00:31",
           "minFaltaAtraso": 0
         },
         {
@@ -4642,8 +5100,8 @@
           "minTrabalhados": 606,
           "horasTrabalhadasFmt": "10:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -4661,8 +5119,8 @@
           "minTrabalhados": 604,
           "horasTrabalhadasFmt": "10:04",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 64,
+          "horasExtrasFmt": "01:04",
           "minFaltaAtraso": 0
         },
         {
@@ -4680,8 +5138,8 @@
           "minTrabalhados": 610,
           "horasTrabalhadasFmt": "10:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -4699,8 +5157,8 @@
           "minTrabalhados": 606,
           "horasTrabalhadasFmt": "10:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -4718,8 +5176,8 @@
           "minTrabalhados": 556,
           "horasTrabalhadasFmt": "09:16",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 76,
+          "horasExtrasFmt": "01:16",
           "minFaltaAtraso": 0
         },
         {
@@ -4784,8 +5242,8 @@
           "minTrabalhados": 609,
           "horasTrabalhadasFmt": "10:09",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
           "minFaltaAtraso": 0
         },
         {
@@ -4803,8 +5261,8 @@
           "minTrabalhados": 611,
           "horasTrabalhadasFmt": "10:11",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 71,
+          "horasExtrasFmt": "01:11",
           "minFaltaAtraso": 0
         },
         {
@@ -4822,8 +5280,8 @@
           "minTrabalhados": 614,
           "horasTrabalhadasFmt": "10:14",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 74,
+          "horasExtrasFmt": "01:14",
           "minFaltaAtraso": 0
         },
         {
@@ -4841,8 +5299,8 @@
           "minTrabalhados": 550,
           "horasTrabalhadasFmt": "09:10",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -4891,8 +5349,8 @@
           "minTrabalhados": 606,
           "horasTrabalhadasFmt": "10:06",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 66,
+          "horasExtrasFmt": "01:06",
           "minFaltaAtraso": 0
         },
         {
@@ -4910,8 +5368,8 @@
           "minTrabalhados": 610,
           "horasTrabalhadasFmt": "10:10",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
           "minFaltaAtraso": 0
         },
         {
@@ -4929,8 +5387,8 @@
           "minTrabalhados": 604,
           "horasTrabalhadasFmt": "10:04",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 64,
+          "horasExtrasFmt": "01:04",
           "minFaltaAtraso": 0
         },
         {
@@ -4948,8 +5406,8 @@
           "minTrabalhados": 609,
           "horasTrabalhadasFmt": "10:09",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
           "minFaltaAtraso": 0
         },
         {
@@ -4967,8 +5425,8 @@
           "minTrabalhados": 551,
           "horasTrabalhadasFmt": "09:11",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 71,
+          "horasExtrasFmt": "01:11",
           "minFaltaAtraso": 0
         },
         {
@@ -5017,8 +5475,8 @@
           "minTrabalhados": 599,
           "horasTrabalhadasFmt": "09:59",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 59,
+          "horasExtrasFmt": "00:59",
           "minFaltaAtraso": 0
         },
         {
@@ -5036,8 +5494,8 @@
           "minTrabalhados": 600,
           "horasTrabalhadasFmt": "10:00",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 60,
+          "horasExtrasFmt": "01:00",
           "minFaltaAtraso": 0
         },
         {
@@ -5064,19 +5522,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:51",
             "12:00",
             "13:00",
-            "17:30"
+            "18:01"
           ],
+          "minTrabalhados": 610,
+          "horasTrabalhadasFmt": "10:10",
+          "minNormais": 540,
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:53",
+            "12:00",
+            "13:00",
+            "17:04"
+          ],
+          "minTrabalhados": 551,
+          "horasTrabalhadasFmt": "09:11",
+          "minNormais": 480,
+          "minExtras": 71,
+          "horasExtrasFmt": "01:11",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -5087,28 +5578,31 @@
       "cpf": 7040041359,
       "nome": "WESLEY DA CONCEICAO ARAUJO",
       "cargo": "MONTADOR",
+      "cargoPremissa": "Montador",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G3_MONTADOR",
       "grupoCodigo": "G3",
-      "grupoNome": "Grupo 3 — Execução Especializada (Montador / Guindauto)",
+      "grupoNome": "MOD • Obras — Montador / Guindauto",
       "equipe": "Equipe Helder Borges (REP #6)",
       "isPiloto": false,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 23,
-      "diasFalta": 1,
-      "totalMinutos": 13354,
-      "horasTrabalhadasFmt": "222:34",
-      "horasTrabalhadasDec": 222.57,
-      "horasNormaisFmt": "167:00",
-      "horasNormaisDec": 167,
-      "horasExtrasFmt": "55:34",
-      "horasExtrasDec": 55.57,
-      "horasFaltaFmt": "09:00",
-      "horasFaltaDec": 9,
+      "custoMensalBase": 7700,
+      "valorHHBase": 35,
+      "diasTrabalhados": 25,
+      "diasFalta": 0,
+      "totalMinutos": 14519,
+      "horasTrabalhadasFmt": "241:59",
+      "horasTrabalhadasDec": 241.98,
+      "horasNormaisFmt": "184:00",
+      "horasNormaisDec": 184,
+      "horasExtrasFmt": "57:59",
+      "horasExtrasDec": 57.98,
+      "horasFaltaFmt": "00:00",
+      "horasFaltaDec": 0,
       "mediaHorasDia": 9.68,
-      "custoApropriadoHoras": 7758.79,
-      "custoApropriadoComHE50": 8727.38,
-      "valorHHEfetivoFixo": 34.46,
+      "custoApropriadoHoras": 8469.3,
+      "custoApropriadoComHE50": 9483.95,
+      "valorHHEfetivoFixo": 31.82,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -5618,19 +6112,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:52",
             "12:00",
             "13:00",
-            "17:30"
+            "18:01"
           ],
+          "minTrabalhados": 609,
+          "horasTrabalhadasFmt": "10:09",
+          "minNormais": 540,
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:49",
+            "12:00",
+            "13:00",
+            "17:05"
+          ],
+          "minTrabalhados": 556,
+          "horasTrabalhadasFmt": "09:16",
+          "minNormais": 480,
+          "minExtras": 76,
+          "horasExtrasFmt": "01:16",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -5641,28 +6168,31 @@
       "cpf": 3813522423,
       "nome": "DIOGENES JOSE DOS SANTOS",
       "cargo": "MONTADOR",
+      "cargoPremissa": "Montador",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G3_MONTADOR",
       "grupoCodigo": "G3",
-      "grupoNome": "Grupo 3 — Execução Especializada (Montador / Guindauto)",
+      "grupoNome": "MOD • Obras — Montador / Guindauto",
       "equipe": "Equipe Helder Borges (REP #6)",
       "isPiloto": false,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 23,
-      "diasFalta": 1,
-      "totalMinutos": 13366,
-      "horasTrabalhadasFmt": "222:46",
-      "horasTrabalhadasDec": 222.77,
-      "horasNormaisFmt": "167:00",
-      "horasNormaisDec": 167,
-      "horasExtrasFmt": "55:46",
-      "horasExtrasDec": 55.77,
-      "horasFaltaFmt": "09:00",
-      "horasFaltaDec": 9,
-      "mediaHorasDia": 9.69,
-      "custoApropriadoHoras": 7765.76,
-      "custoApropriadoComHE50": 8737.83,
-      "valorHHEfetivoFixo": 34.43,
+      "custoMensalBase": 7700,
+      "valorHHBase": 35,
+      "diasTrabalhados": 25,
+      "diasFalta": 0,
+      "totalMinutos": 14527,
+      "horasTrabalhadasFmt": "242:07",
+      "horasTrabalhadasDec": 242.12,
+      "horasNormaisFmt": "184:00",
+      "horasNormaisDec": 184,
+      "horasExtrasFmt": "58:07",
+      "horasExtrasDec": 58.12,
+      "horasFaltaFmt": "00:00",
+      "horasFaltaDec": 0,
+      "mediaHorasDia": 9.68,
+      "custoApropriadoHoras": 8474.2,
+      "custoApropriadoComHE50": 9491.3,
+      "valorHHEfetivoFixo": 31.8,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -6172,19 +6702,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:51",
             "12:00",
             "13:00",
-            "17:30"
+            "18:01"
           ],
+          "minTrabalhados": 610,
+          "horasTrabalhadasFmt": "10:10",
+          "minNormais": 540,
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:53",
+            "12:00",
+            "13:00",
+            "17:04"
+          ],
+          "minTrabalhados": 551,
+          "horasTrabalhadasFmt": "09:11",
+          "minNormais": 480,
+          "minExtras": 71,
+          "horasExtrasFmt": "01:11",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -6195,28 +6758,31 @@
       "cpf": 528213318,
       "nome": "DORGIVAL RODRIGUES COSTA",
       "cargo": "LIDER DE OBRAS",
+      "cargoPremissa": "Líder",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G2_LIDER",
       "grupoCodigo": "G2",
-      "grupoNome": "Grupo 2 — Supervisão Técnica (Líder de Obras)",
+      "grupoNome": "MOD • Obras — Líder",
       "equipe": "Equipe Helder Borges (REP #6)",
       "isPiloto": false,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 25,
-      "diasFalta": 1,
-      "totalMinutos": 14299,
-      "horasTrabalhadasFmt": "238:19",
-      "horasTrabalhadasDec": 238.32,
-      "horasNormaisFmt": "167:00",
-      "horasNormaisDec": 167,
-      "horasExtrasFmt": "71:19",
-      "horasExtrasDec": 71.32,
-      "horasFaltaFmt": "09:00",
-      "horasFaltaDec": 9,
-      "mediaHorasDia": 9.53,
-      "custoApropriadoHoras": 8307.84,
-      "custoApropriadoComHE50": 9550.94,
-      "valorHHEfetivoFixo": 32.18,
+      "custoMensalBase": 9900,
+      "valorHHBase": 45,
+      "diasTrabalhados": 27,
+      "diasFalta": 0,
+      "totalMinutos": 15462,
+      "horasTrabalhadasFmt": "257:42",
+      "horasTrabalhadasDec": 257.7,
+      "horasNormaisFmt": "184:00",
+      "horasNormaisDec": 184,
+      "horasExtrasFmt": "73:42",
+      "horasExtrasDec": 73.7,
+      "horasFaltaFmt": "00:00",
+      "horasFaltaDec": 0,
+      "mediaHorasDia": 9.54,
+      "custoApropriadoHoras": 11596.5,
+      "custoApropriadoComHE50": 13254.75,
+      "valorHHEfetivoFixo": 38.42,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -6736,19 +7302,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:50",
             "12:00",
             "13:00",
-            "17:30"
+            "18:00"
           ],
+          "minTrabalhados": 610,
+          "horasTrabalhadasFmt": "10:10",
+          "minNormais": 540,
+          "minExtras": 70,
+          "horasExtrasFmt": "01:10",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:50",
+            "12:00",
+            "13:00",
+            "17:03"
+          ],
+          "minTrabalhados": 553,
+          "horasTrabalhadasFmt": "09:13",
+          "minNormais": 480,
+          "minExtras": 73,
+          "horasExtrasFmt": "01:13",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -6759,13 +7358,16 @@
       "cpf": 6270953561,
       "nome": "ALEX SANDRO DE SOUZA SANTOS",
       "cargo": "AJUDANTE",
+      "cargoPremissa": "Ajudante",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G4_AJUDANTE",
       "grupoCodigo": "G4",
-      "grupoNome": "Grupo 4 — Apoio Operacional (Ajudante)",
+      "grupoNome": "MOD • Obras — Ajudante",
       "equipe": "Equipe Helder Borges (REP #6)",
       "isPiloto": false,
-      "custoMensalBase": 5670,
-      "valorHHBase": 25.77,
+      "custoMensalBase": 5500,
+      "valorHHBase": 25,
       "diasTrabalhados": 10,
       "diasFalta": 0,
       "totalMinutos": 5227,
@@ -6773,14 +7375,14 @@
       "horasTrabalhadasDec": 87.12,
       "horasNormaisFmt": "69:40",
       "horasNormaisDec": 69.67,
-      "horasExtrasFmt": "17:06",
-      "horasExtrasDec": 17.1,
+      "horasExtrasFmt": "17:27",
+      "horasExtrasDec": 17.45,
       "horasFaltaFmt": "00:00",
       "horasFaltaDec": 0,
       "mediaHorasDia": 8.71,
-      "custoApropriadoHoras": 2245.08,
-      "custoApropriadoComHE50": 2456.4,
-      "valorHHEfetivoFixo": 65.08,
+      "custoApropriadoHoras": 2178,
+      "custoApropriadoComHE50": 2396.13,
+      "valorHHEfetivoFixo": 63.13,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -6816,8 +7418,8 @@
           "minTrabalhados": 487,
           "horasTrabalhadasFmt": "08:07",
           "minNormais": 480,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 7,
+          "horasExtrasFmt": "00:07",
           "minFaltaAtraso": 0
         },
         {
@@ -6868,8 +7470,8 @@
           "minTrabalhados": 549,
           "horasTrabalhadasFmt": "09:09",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 9,
+          "horasExtrasFmt": "00:09",
           "minFaltaAtraso": 0
         },
         {
@@ -6925,8 +7527,8 @@
           "minTrabalhados": 545,
           "horasTrabalhadasFmt": "09:05",
           "minNormais": 540,
-          "minExtras": 0,
-          "horasExtrasFmt": "00:00",
+          "minExtras": 5,
+          "horasExtrasFmt": "00:05",
           "minFaltaAtraso": 0
         },
         {
@@ -7254,6 +7856,34 @@
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
           "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
+          "minTrabalhados": 0,
+          "horasTrabalhadasFmt": "00:00",
+          "minNormais": 0,
+          "minExtras": 0,
+          "horasExtrasFmt": "00:00",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
+          "minTrabalhados": 0,
+          "horasTrabalhadasFmt": "00:00",
+          "minNormais": 0,
+          "minExtras": 0,
+          "horasExtrasFmt": "00:00",
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -7264,28 +7894,31 @@
       "cpf": 11749487527,
       "nome": "ERIC BARBOSA DE SOUZA",
       "cargo": "AJUDANTE",
+      "cargoPremissa": "Ajudante",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G4_AJUDANTE",
       "grupoCodigo": "G4",
-      "grupoNome": "Grupo 4 — Apoio Operacional (Ajudante)",
+      "grupoNome": "MOD • Obras — Ajudante",
       "equipe": "Equipe Helder Borges (REP #6)",
       "isPiloto": false,
-      "custoMensalBase": 5670,
-      "valorHHBase": 25.77,
-      "diasTrabalhados": 19,
-      "diasFalta": 2,
-      "totalMinutos": 11030,
-      "horasTrabalhadasFmt": "183:50",
-      "horasTrabalhadasDec": 183.83,
-      "horasNormaisFmt": "158:00",
-      "horasNormaisDec": 158,
-      "horasExtrasFmt": "25:50",
-      "horasExtrasDec": 25.83,
-      "horasFaltaFmt": "18:00",
-      "horasFaltaDec": 18,
+      "custoMensalBase": 5500,
+      "valorHHBase": 25,
+      "diasTrabalhados": 21,
+      "diasFalta": 1,
+      "totalMinutos": 12192,
+      "horasTrabalhadasFmt": "203:12",
+      "horasTrabalhadasDec": 203.2,
+      "horasNormaisFmt": "175:00",
+      "horasNormaisDec": 175,
+      "horasExtrasFmt": "28:12",
+      "horasExtrasDec": 28.2,
+      "horasFaltaFmt": "09:00",
+      "horasFaltaDec": 9,
       "mediaHorasDia": 9.68,
-      "custoApropriadoHoras": 4737.3,
-      "custoApropriadoComHE50": 5070.12,
-      "valorHHEfetivoFixo": 30.84,
+      "custoApropriadoHoras": 5080,
+      "custoApropriadoComHE50": 5432.5,
+      "valorHHEfetivoFixo": 27.07,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -7784,19 +8417,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:50",
             "12:00",
             "13:00",
-            "17:30"
+            "17:59"
           ],
+          "minTrabalhados": 609,
+          "horasTrabalhadasFmt": "10:09",
+          "minNormais": 540,
+          "minExtras": 69,
+          "horasExtrasFmt": "01:09",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:50",
+            "12:00",
+            "13:00",
+            "17:03"
+          ],
+          "minTrabalhados": 553,
+          "horasTrabalhadasFmt": "09:13",
+          "minNormais": 480,
+          "minExtras": 73,
+          "horasExtrasFmt": "01:13",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     },
@@ -7807,28 +8473,31 @@
       "cpf": 7281104588,
       "nome": "VALNEI SOARES DE JESUS JUNIOR",
       "cargo": "MONTADOR",
+      "cargoPremissa": "Montador",
+      "departamentoPremissa": "Obras",
+      "classificacaoPremissa": "MOD",
       "grupoValorKey": "G3_MONTADOR",
       "grupoCodigo": "G3",
-      "grupoNome": "Grupo 3 — Execução Especializada (Montador / Guindauto)",
+      "grupoNome": "MOD • Obras — Montador / Guindauto",
       "equipe": "Equipe Helder Borges (REP #6)",
       "isPiloto": false,
-      "custoMensalBase": 7670,
-      "valorHHBase": 34.86,
-      "diasTrabalhados": 5,
-      "diasFalta": 4,
-      "totalMinutos": 2848,
-      "horasTrabalhadasFmt": "47:28",
-      "horasTrabalhadasDec": 47.47,
-      "horasNormaisFmt": "44:00",
-      "horasNormaisDec": 44,
-      "horasExtrasFmt": "03:28",
-      "horasExtrasDec": 3.47,
-      "horasFaltaFmt": "36:00",
-      "horasFaltaDec": 36,
-      "mediaHorasDia": 9.49,
-      "custoApropriadoHoras": 1654.8,
-      "custoApropriadoComHE50": 1715.29,
-      "valorHHEfetivoFixo": 161.58,
+      "custoMensalBase": 7700,
+      "valorHHBase": 35,
+      "diasTrabalhados": 7,
+      "diasFalta": 3,
+      "totalMinutos": 3879,
+      "horasTrabalhadasFmt": "64:39",
+      "horasTrabalhadasDec": 64.65,
+      "horasNormaisFmt": "61:00",
+      "horasNormaisDec": 61,
+      "horasExtrasFmt": "03:39",
+      "horasExtrasDec": 3.65,
+      "horasFaltaFmt": "27:00",
+      "horasFaltaDec": 27,
+      "mediaHorasDia": 9.24,
+      "custoApropriadoHoras": 2262.75,
+      "custoApropriadoComHE50": 2326.63,
+      "valorHHEfetivoFixo": 119.1,
       "historicoDiario": [
         {
           "data": "20261001",
@@ -8287,19 +8956,52 @@
           "horarioContratual": "07:30-12:00\r\n13:00-17:30",
           "folga": false,
           "feriado": false,
-          "faltaDiaInteiro": true,
+          "faltaDiaInteiro": false,
           "batidas": [
-            "07:30",
+            "06:49",
             "12:00",
             "13:00",
-            "17:30"
+            "16:57"
           ],
+          "minTrabalhados": 548,
+          "horasTrabalhadasFmt": "09:08",
+          "minNormais": 540,
+          "minExtras": 8,
+          "horasExtrasFmt": "00:08",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261030",
+          "horarioContratual": "07:30-12:00\r\n13:00-16:30",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [
+            "06:50",
+            "12:00",
+            "13:00",
+            "15:53"
+          ],
+          "minTrabalhados": 483,
+          "horasTrabalhadasFmt": "08:03",
+          "minNormais": 480,
+          "minExtras": 3,
+          "horasExtrasFmt": "00:03",
+          "minFaltaAtraso": 0
+        },
+        {
+          "data": "20261031",
+          "horarioContratual": "Folga/DSR",
+          "folga": false,
+          "feriado": false,
+          "faltaDiaInteiro": false,
+          "batidas": [],
           "minTrabalhados": 0,
           "horasTrabalhadasFmt": "00:00",
           "minNormais": 0,
           "minExtras": 0,
           "horasExtrasFmt": "00:00",
-          "minFaltaAtraso": 540
+          "minFaltaAtraso": 0
         }
       ]
     }
